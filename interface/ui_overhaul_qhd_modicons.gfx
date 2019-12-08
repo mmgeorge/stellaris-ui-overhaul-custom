@@ -1,0 +1,15 @@
+spriteTypes = {
+	# missing resource icons
+	spriteType = {
+		name = "GFX_resource_sr_zro_large"
+		textureFile = "gfx/interface/icons/resources/zro_large.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_sr_living_metal_large"
+		textureFile = "gfx/interface/icons/resources/living_metal_large.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_nanites_large"
+		textureFile = "gfx/interface/icons/resources/nanites_large.dds"
+	}
+}
