@@ -1,0 +1,63 @@
+﻿l_polish:
+ speeddial_button_contact_tooltip:0 "Kontakt z §HEnclave§!"
+ speeddial_button_contact_tooltip:0 "Kontakt"
+ speeddial_button_contact_wbc_tooltip:0 "kontakt zostanie nawiązany."
+ speeddial_button_contact_trader_tooltip:0 "Kontakt z Enklawą §Hkupiecką§!"
+ speeddial_button_contact_artist_tooltip:0 "Kontakt z Enklawą §Hartystów§!"
+ speeddial_button_contact_curator_tooltip:0 "Kontakt z Enklawą §Hkuratorów§!"
+ speeddial_button_contact_shroud_tooltip:0 "Kontakt z §MWoalem§!"
+ speeddial_button_contact_caravaneer_tooltip:0 "Kontakt z §HKarawana§!"
+
+ speeddial_button_contact_traders_xc_tooltip:0 "Kontakt z §H$leviathans.100.name$§!"
+ speeddial_button_contact_traders_rce_tooltip:0 "Kontakt z §H$leviathans.103.name$§!"
+ speeddial_button_contact_traders_mmg_tooltip:0 "Kontakt z §H$leviathans.104.name$§!"
+
+ speeddial_button_allow_blank_tooltip:0 ""
+ speeddial_button_newline:0 " \n"
+ speeddial_button_allow_shroud_wmw:0 "Musimy poczekać"
+ speeddial_button_allow_shroud_brisa:0 "zanim będziemy w stanie ponownie dosięgnąć §MWoalu§!."
+
+ speeddial_button_allow_shroud_tooltip:0 "$speeddial_button_allow_shroud_wmw$ $speeddial_button_allow_shroud_brisa$"
+ speeddial_button_allow_shroud_3600_tooltip:0 "$speeddial_button_allow_shroud_wmw$ §H10 lat§! $speeddial_button_allow_shroud_brisa$"
+ speeddial_button_allow_shroud_1800_tooltip:0 "$speeddial_button_allow_shroud_wmw$ §H5 lat§! $speeddial_button_allow_shroud_brisa$"
+ speeddial_button_allow_shroud_1440_tooltip:0 "$speeddial_button_allow_shroud_wmw$ §H4 lat§! $speeddial_button_allow_shroud_brisa$"
+ speeddial_button_allow_shroud_1080_tooltip:0 "$speeddial_button_allow_shroud_wmw$ §H3 lat§! $speeddial_button_allow_shroud_brisa$"
+ speeddial_button_allow_shroud_720_tooltip:0 "$speeddial_button_allow_shroud_wmw$ §H2 lat§! $speeddial_button_allow_shroud_brisa$"
+ speeddial_button_allow_shroud_360_tooltip:0 "$speeddial_button_allow_shroud_wmw$ §H1 lat§! $speeddial_button_allow_shroud_brisa$"
+ speeddial_button_allow_shroud_180_tooltip:0 "$speeddial_button_allow_shroud_wmw$ §H6 miesięcy§! $speeddial_button_allow_shroud_brisa$"
+ speeddial_button_allow_shroud_150_tooltip:0 "$speeddial_button_allow_shroud_wmw$ §H5 miesięcy§! $speeddial_button_allow_shroud_brisa$"
+ speeddial_button_allow_shroud_120_tooltip:0 "$speeddial_button_allow_shroud_wmw$ §H4 miesięcy§! $speeddial_button_allow_shroud_brisa$"
+ speeddial_button_allow_shroud_90_tooltip:0 "$speeddial_button_allow_shroud_wmw$ §H3 miesięcy§! $speeddial_button_allow_shroud_brisa$"
+ speeddial_button_allow_shroud_60_tooltip:0 "$speeddial_button_allow_shroud_wmw$ §H2 miesięcy§! $speeddial_button_allow_shroud_brisa$"
+ speeddial_button_allow_shroud_30_tooltip:0 "$speeddial_button_allow_shroud_wmw$ §H1 miesiąc§! $speeddial_button_allow_shroud_brisa$"
+
+ speeddial_button_open_options_tooltip:0 "Kliknij aby zmienić tryb.\n\nObecny tryb:\n"
+ speeddial_button_open_options_tooltip_end:0 "\n§YKlasyczny:§! Przyciski kontaktują się z losową enklawą.\n\n§YRozszerzony:§! Dodatkowe przyciski do kontaktu z wybraną enklawą.\n\n§YStały:§! Domyślne przyciski wywołują ostatnią enklawę wywołaną za pomocą dodatkowych przycisków."
+ speeddial_button_open_options_tooltip_classic:0 ">§GKlasyczny§!\n  §RRozszerzony (Klasyczny)§!\n  §RRozszerzony (Stały)§!\n  §RStały§!"
+ speeddial_button_open_options_tooltip_extended:0 "  §RKlasyczny§!\n>§GRozszerzony (Klasyczny)§!\n  §RRozszerzony (Stały)§!\n  §RStały§!"
+ speeddial_button_open_options_tooltip_extended_fixed:0 "  §RKlasyczny§!\n  §RRozszerzony (Klasyczny)§!\n>§GRozszerzony (Stały)§!\n  §RStały§!"
+ speeddial_button_open_options_tooltip_fixed:0 "  §RKlasyczny§!\n  §RRozszerzony (Klasyczny)§!\n  §RRozszerzony (Stały)§!\n>§GStały§!"
+
+ speeddial.4.name:0 "§R*IMPORTANT*§! SpeedDial - podpowiedź czasu Woalu"
+ speeddial.4.desc:0 "To powiadomienie pojawia się tylko dlatego, że dotarłeś do Woalu, a SpeedDial został zaktualizowany lub właśnie pobrałeś ten mod. To powiadomienie nie pojawi się w innych okolicznościach.\n\nNa przycisku Woalu włączona jest etykieta wskaźnika czasu najechania myszą, która daje przybliżone informacje o tym, kiedy następnym razem będziesz mógł sięgnąć do Woalu. Ze względu na sposób kodowania (który ma być najbardziej przyjazny dla innych modów i przyszłych łatek) istnieje irytujący błąd. Jeśli obecnie nie możesz sięgnąć do Woalu, ale włączyć ten mod, minutnik nie będzie działał poprawnie.\n\nUwaga:\n\n§HTimer zadziała przy następnym dotarciu do Woalu§!\n\n§RTYLKO, JEŻELI§!\n\n§HZaczekasz miesiąc po tym, jak znów będziesz mógł dotrzeć do Woalu§!. \n\nPo wykonaniu tej czynności licznik czasu zostanie poprawnie zresetowany, a błąd zostanie wyeliminowany!"
+
+ speeddial_button_contact_marauder_tooltip:0 "Kontakt z §HMarauder§!"
+ speeddial_button_contact_marauder_1_tooltip:0 "Kontakt z §HMarauder§!"
+ speeddial_button_contact_marauder_2_tooltip:0 "Kontakt z §HMarauder§!"
+ speeddial_button_contact_marauder_3_tooltip:0 "Kontakt z §HMarauder§!"
+
+ ########
+ # mods #
+ ########
+
+ # merc enclave
+ speeddial_button_contact_merc_tooltip:0 "Kontakt z Enklawą §Hnajemników§!"
+
+ # human fallen empires
+ speeddial_button_contact_hfe_tooltip:0 "Kontakt z §H[human_fallen_empires_thoth.GetName]§!"
+
+ speeddial_button_contact_hfe_pirate_tooltip:0 "Kontakt z §HPiratami§!"
+
+ speeddial_button_contact_hfe_deepvoid_tooltip:0 "Przypnij"
+ speeddial_button_allow_hfe_deepvoid_tooltip:0 "Musimy być w systemie z przyjazną planetą."
+

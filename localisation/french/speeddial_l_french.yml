@@ -1,0 +1,56 @@
+l_french:
+ speeddial_button_contact_tooltip:0 "Contacter une §HEnclave§!"
+ speeddial_button_contact_tooltip:0 "Contacter"
+ speeddial_button_contact_wbc_tooltip:0 "seront contactés."
+ speeddial_button_contact_trader_tooltip:0 "Contacter les §HMarchands§!"
+ speeddial_button_contact_artist_tooltip:0 "Contacter les §HArtistes§!"
+ speeddial_button_contact_curator_tooltip:0 "Contacter les §HConservateurs§!"
+ speeddial_button_contact_shroud_tooltip:0 "Contacter le §MSuaire§!"
+ speeddial_button_contact_caravaneer_tooltip:0 "Contacter les §HCaravaniers§!" 
+ 
+ speeddial_button_contact_traders_xc_tooltip:0 "Contacter la §H$leviathans.100.name$§!"
+ speeddial_button_contact_traders_rce_tooltip:0 "Contacter la §H$leviathans.103.name$§!"
+ speeddial_button_contact_traders_mmg_tooltip:0 "Contacter la §H$leviathans.104.name$§!"
+ 
+ speeddial_button_allow_blank_tooltip:0 "" 
+ speeddial_button_newline:0 " \n"
+ speeddial_button_allow_shroud_wmw:0 "Nous devons attendre"
+ speeddial_button_allow_shroud_brisa:0 "avant de pouvoir retourner dans le §MSuaire§!."
+ 
+ speeddial_button_allow_shroud_tooltip:0 "$speeddial_button_allow_shroud_wmw$ $speeddial_button_allow_shroud_brisa$"
+ speeddial_button_allow_shroud_3600_tooltip:0 "$speeddial_button_allow_shroud_wmw$ §H10 ans§! $speeddial_button_allow_shroud_brisa$"
+ speeddial_button_allow_shroud_1800_tooltip:0 "$speeddial_button_allow_shroud_wmw$ §H5 ans§! $speeddial_button_allow_shroud_brisa$"
+ speeddial_button_allow_shroud_1440_tooltip:0 "$speeddial_button_allow_shroud_wmw$ §H4 ans§! $speeddial_button_allow_shroud_brisa$"
+ speeddial_button_allow_shroud_1080_tooltip:0 "$speeddial_button_allow_shroud_wmw$ §H3 ans§! $speeddial_button_allow_shroud_brisa$"
+ speeddial_button_allow_shroud_720_tooltip:0 "$speeddial_button_allow_shroud_wmw$ §H2 ans§! $speeddial_button_allow_shroud_brisa$"
+ speeddial_button_allow_shroud_360_tooltip:0 "$speeddial_button_allow_shroud_wmw$ §H1 an§! $speeddial_button_allow_shroud_brisa$"
+ speeddial_button_allow_shroud_180_tooltip:0 "$speeddial_button_allow_shroud_wmw$ §H6 mois§! $speeddial_button_allow_shroud_brisa$"
+ speeddial_button_allow_shroud_150_tooltip:0 "$speeddial_button_allow_shroud_wmw$ §H5 mois§! $speeddial_button_allow_shroud_brisa$"
+ speeddial_button_allow_shroud_120_tooltip:0 "$speeddial_button_allow_shroud_wmw$ §H4 mois§! $speeddial_button_allow_shroud_brisa$"
+ speeddial_button_allow_shroud_90_tooltip:0 "$speeddial_button_allow_shroud_wmw$ §H3 mois§! $speeddial_button_allow_shroud_brisa$"
+ speeddial_button_allow_shroud_60_tooltip:0 "$speeddial_button_allow_shroud_wmw$ §H2 mois§! $speeddial_button_allow_shroud_brisa$"
+ speeddial_button_allow_shroud_30_tooltip:0 "$speeddial_button_allow_shroud_wmw$ §H1 mois§! $speeddial_button_allow_shroud_brisa$"
+ 
+ speeddial_button_open_options_tooltip:0 "Cliquer pour modifier SpeedDial.\n\nMode actuel :\n"
+ speeddial_button_open_options_tooltip_end:0 "\n§YClassique :§! les boutons pour appeler des Marchands et des Conservateurs contacteront une Enclave correspondante aléaoire.\n\n§YÉtendu (classique et basique) :§! les Marchands et les Conservateurs peuvent être appelés par Enclave spécifique par l'intermédiaire d'un bouton d'extension.\n\n§YBasique :§! les boutons d'appel pour les Marchands et les Conservateurs appeleront les derniers contactés par le menu étendu."
+ speeddial_button_open_options_tooltip_classic:0 ">§GClassique§!\n §RClassique étendu§!\n §RBasique étendu§!\n §RBasique§!"
+ speeddial_button_open_options_tooltip_extended:0 " §RClassique§!\n>§GClassique étendu§!\n §RBasique étendu§!\n §RBasique§!"
+ speeddial_button_open_options_tooltip_extended_fixed:0 " §RClassique§!\n §RClassique étendu§!\n>§GBasique étendu§!\n §RBasique§!"
+ speeddial_button_open_options_tooltip_fixed:0 " §RClassique§!\n §RClassique étendu§!\n §RBasique étendu§!\n>§GBasique§!"
+
+ speeddial.4.name:0 "§R*IMPORTANT*§! SpeedDial - Survol du Suaire"
+ speeddial.4.desc:0 "Ce message n'apparaît que parce que vous avez atteint le Linceul et que SpeedDial a été mis à jour ou que vous venez de télécharger ce mod. Cet avis n'apparaîtra pas dans d'autres circonstances.\n\nUne info-bulle est activée sur le bouton du Suaire de SpeedDial afin d'avoir une approximation de votre prochaine possibilité d'entrer en contact avec le Suaire. En raison de la façon dont cela est codé (recherche de compatibilité maximale avec d'autres mods et de futurs correctifs), il existe un bug ennuyeux. Si vous ne pouvez actuellement pas atteindre le Suaire mais activez ce mod, le minuteur ne fonctionnera pas correctement.\n\nVeuillez noter ceci:\n\n§HLa minuterie fonctionnera la prochaine fois que vous atteindrez le Suaire§!\n\n§RSEULEMENT SI§!\n\n§HVous patientez un mois avant d'entrer à nouveau dans le Suaire§!.\n\nLorsque cela sera fait, le minuteur sera correctement remis à zéro et le bug éliminé!"
+ ########
+ # mods #
+ ########
+ 
+ # merc enclave
+ speeddial_button_contact_merc_tooltip:0 "Contacter les §HMercenaires§!"
+ 
+ # human fallen empires
+ speeddial_button_contact_hfe_tooltip:0 "Contacter §H[human_fallen_empires_thoth.GetName]§!"
+  
+ speeddial_button_contact_hfe_pirate_tooltip:0 "Contacter les §HPirates§!"
+  
+ speeddial_button_contact_hfe_deepvoid_tooltip:0 "Amarrez"
+ speeddial_button_allow_hfe_deepvoid_tooltip:0 "Nous devons aller dans un système avec une planète amicale."
