@@ -470,7 +470,7 @@ guiTypes = {
 				#orientation = UPPER_RIGHT
 				oversound = mouse_over
 				navLeft = "change"
-				shortcut = "N"
+				shortcut = "CTRL+D"
 				pdx_tooltip = "DECISIONS_TOOLTIP"
 			}
 			buttonType = {
@@ -493,7 +493,7 @@ guiTypes = {
 				font = "cg_16b"
 				#orientation = UPPER_RIGHT
 				oversound = mouse_over
-				shortcut = "I"
+				shortcut = "CTRL+R"
 			}
 			# Planet Stability
 			containerWindowType = {
@@ -839,7 +839,7 @@ guiTypes = {
 							font = "cg_16b"							oversound = mouse_over
 							pdx_tooltip = "DEPOSITS_TOOLTIP"
 							navLeft = "change"
-							shortcut = "K"
+							shortcut = "CTRL+F"
 						}
 						containerWindowType = {
 							name = "blocker_deposits_window"
