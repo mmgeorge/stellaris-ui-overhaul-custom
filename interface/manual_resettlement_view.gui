@@ -98,7 +98,7 @@ guiTypes = {
 				size = { width = 600 height = 350 }
 				if_resolution = {
 					min_height = 1440
-					size = { width = 600 height = 500 }
+					size = { width = 600 height = 1000 }
 				}
 				verticalScrollbar = "right_vertical_slider"
 				margin = { top = 7 bottom = 15 right = 6 }
@@ -147,7 +147,7 @@ guiTypes = {
 				size = { width = 600 height = 350 }
 				if_resolution = {
 					min_height = 1440
-					size = { width = 600 height = 500 }
+					size = { width = 600 height = 1000 }
 				}
 				verticalScrollbar = "right_vertical_slider"
 				margin = { top = 7 bottom = 15 right = 6 }
@@ -207,12 +207,12 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "name"
-			position = { x = 0 y = 0 }
+			position = { x = 8 y = 0 }
 			alwaystransparent = yes
 			font = "cg_16b"
 			maxWidth = 450
 			maxHeight = 30
-			format = center
+			format = left
 			vertical_alignment = center
 		}
 	}
@@ -233,7 +233,8 @@ guiTypes = {
 			maxWidth = 20
 			maxHeight = 20
 			fixedSize = yes
-			format = left		}
+			format = left
+		}
 	}
 	###
 	containerWindowType = {

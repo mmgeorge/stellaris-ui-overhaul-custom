@@ -376,18 +376,21 @@
 		MIN_GUI_SCALE							= 0.5 # Minimum UI scale factor
 		
 		TOPBAR_BUTTONS_SHORTCUTS				= { 
-		"contacts" "SHIFT+c" 
-		"situation" "SHIFT+s" 
-		"market" "q"
-		"empire" "SHIFT+q"
-		"expansion_planner" "SHIFT+e"		
-		"policies" "SHIFT+r"
-		"edicts" "r"			
-		"traditions" "SHIFT+t" 
-		"ship_designer" "SHIFT+d"		
-		"fleet_manager" "f"
-		"technology" "t"
-		"species" x }	# Shortcuts for topbar buttons, there aren't enough F-keys!
+		"contacts" "CTRL+c" 
+		"situation" "CTRL+s" 
+		"market" "CTRL+q"
+		"empire" "CTRL+r"
+		"expansion_planner" "ALT+r"		
+		"policies" "ALT+e"
+		"edicts" "CTRL+e"			
+		"traditions" "CTRL+t" 
+		"ship_designer" "CTRL+d"		
+		"fleet_manager" "CTRL+f"
+		"technology" "ALT+s"
+		"species" "CTRL+x"
+		"leaders" "CTRL+z"
+		"claims" "ALT+c"
+		"factions" "CTRL+f" }	# Shortcuts for topbar buttons, there aren't enough F-keys!
 		TOPBAR_BUTTONS_PRIORITY	= {
 		"contacts"
 		"situation"

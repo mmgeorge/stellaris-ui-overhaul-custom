@@ -184,6 +184,7 @@ guiTypes = {
 			quadTextureSprite = "gfx_transparency_button"
 			position = { x = 18 y = 5 }
 			size = { x = 80 y = 24 }
+			shortCut ="shift+e"
 		}
 		# ship model
 		containerWindowType = {
@@ -199,7 +200,8 @@ guiTypes = {
 				quadTextureSprite = "GFX_dummy_3d_ship_details"
 				size = { x = 456 y = 208 } # size = { x = 456 y = 208 }
 				position = { x = 6 y = 6 }
-				scale = 1			}
+				scale = 1
+			}
 		}
 		# ship stats
 		containerWindowType = {

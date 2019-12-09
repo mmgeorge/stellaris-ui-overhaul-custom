@@ -53,16 +53,19 @@ guiTypes = {
 	containerWindowType = {
 		name = "planet_view"
 		size = { width = @page_width height = 940 }
-		position = { x = 35 y = 40 }
+		position = { x = 0 y = 40 }
 		if_resolution = {
 			min_height = 1200
-			position = { x = 35 y = -55 }
-			orientation = lower_left
-			origo = lower_left
+			#position = { x = 35 y = -55 }
+			#orientation = lower_left
+			#origo = lower_left
+			position = { x = 0 y = 100 }
+			orientation = center
+			origo = center
 		}
 		if_resolution = {
 			min_width = 2560
-			position = { x = 55 y = -85 }
+			position = { x = 0 y = 0 }
 			if_resolution = {
 				max_height = 1080
 				position = { x = 55 y = 40 }
@@ -101,7 +104,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_button_left"
 				position = { x = 0 y = 0 }
 				#orientation = upper_left
-				#	shortcut = "SHIFT + TAB"
+				shortcut = "SHIFT + TAB"
 				clicksound = "click"
 				pdx_tooltip = "PREV"
 			}
@@ -110,7 +113,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_button_right"
 				position = { x = 36 y = 0 }
 				#orientation = upper_left
-				#	shortcut = "TAB"
+				shortcut = "TAB"
 				clicksound = "click"
 				pdx_tooltip = "NEXT"
 			}
@@ -162,7 +165,8 @@ guiTypes = {
 			iconType = {
 				name = "stripes_1"
 				spriteType = "GFX_planetview_stripes_1"
-				position = { x = -9 y = 12 }				alwaysTransparent = yes
+				position = { x = -9 y = 12 }
+				alwaysTransparent = yes
 			}
 			iconType = {
 				name = "city_frame"
@@ -188,6 +192,7 @@ guiTypes = {
 			size = { x = 330 y = 18 }
 			position = { x = 120 y = 13 }
 			oversound = no_sound
+			shortCut ="shift+e"
 		}
 		instantTextBoxType = {
 			name = "planet_name"
@@ -232,7 +237,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_tiled_window_transparent"
 				size = { x = 358 y = 40 }
 				position = { x = 0 y = 0 }
-				shortcut = "G"
+				shortcut = "SHIFT+G"
 			}
 		}
 		containerWindowType = {
@@ -274,7 +279,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_tiled_window_transparent"
 				size = { x = 445 y = 40 }
 				position = { x = -87 y = 0 }
-				shortcut = "G"
+				shortcut = "SHIFT+G"
 			}
 			instantTextBoxType = {
 				name = "governor_name"
@@ -284,7 +289,8 @@ guiTypes = {
 				maxWidth = 150
 				maxHeight = 20
 				fixedSize = yes
-				format = left			}
+				format = left
+			}
 			iconType = {
 				name = "governor_skill"
 				spriteType = "GFX_leader_skill"
@@ -427,7 +433,8 @@ guiTypes = {
 				name = "modifiers"
 				position = { x = 0 y = 5 }
 				size = { x = 350 y = 34 }
-				format = right			}
+				format = right
+			}
 		}
 		#<------------------------------- Planet Info Panel --------------------------->
 		# Actions & Planet Info
@@ -470,7 +477,7 @@ guiTypes = {
 				#orientation = UPPER_RIGHT
 				oversound = mouse_over
 				navLeft = "change"
-				shortcut = "CTRL+D"
+				shortcut = "SHIFT+D"
 				pdx_tooltip = "DECISIONS_TOOLTIP"
 			}
 			buttonType = {
@@ -493,7 +500,7 @@ guiTypes = {
 				font = "cg_16b"
 				#orientation = UPPER_RIGHT
 				oversound = mouse_over
-				shortcut = "CTRL+R"
+				shortcut = "SHIFT+S"
 			}
 			# Planet Stability
 			containerWindowType = {
@@ -729,7 +736,8 @@ guiTypes = {
 						maxWidth = 500
 						maxHeight = 320
 						fixedSize = yes
-						format = left					}
+						format = left
+					}
 				}
 				# Planetary resources
 				containerWindowType = {
@@ -748,7 +756,8 @@ guiTypes = {
 						maxWidth = 270
 						maxHeight = 20
 						fixedSize = yes
-						format = left						alwaysTransparent = yes
+						format = left
+						alwaysTransparent = yes
 					}
 					instantTextBoxType = {
 						name = "planetary_resources_amount"
@@ -836,10 +845,11 @@ guiTypes = {
 							position = { x = 10 y = 1 }
 							spriteType = "GFX_inspect_planet_features"
 							buttonFont = "cg_16b"
-							font = "cg_16b"							oversound = mouse_over
+							font = "cg_16b"
+							oversound = mouse_over
 							pdx_tooltip = "DEPOSITS_TOOLTIP"
 							navLeft = "change"
-							shortcut = "CTRL+F"
+							shortcut = "SHIFT+F"
 						}
 						containerWindowType = {
 							name = "blocker_deposits_window"
@@ -859,7 +869,8 @@ guiTypes = {
 								maxWidth = 35
 								maxHeight = 50
 								fixedSize = yes
-								format = left							}
+								format = left
+							}
 						}
 						# Rare Deposits Summary, shown when grid overflows
 						containerWindowType = {
@@ -880,7 +891,8 @@ guiTypes = {
 								maxWidth = 35
 								maxHeight = 50
 								fixedSize = yes
-								format = left							}
+								format = left
+							}
 						}
 					}
 					# Available District Cubes Container
@@ -934,7 +946,8 @@ guiTypes = {
 						maxWidth = 548
 						maxHeight = 230
 						fixedSize = yes
-						format = left					}
+						format = left
+					}
 				}
 				containerWindowType = {
 					name = "colonizing_planet_window"
@@ -955,7 +968,8 @@ guiTypes = {
 						text = "COLONIZING_PLANET"
 						position = { x = 10 y = 7 }
 						maxWidth = 525
-						maxHeight = 20						format = center
+						maxHeight = 20
+						format = center
 					}
 				}
 			}
@@ -1008,7 +1022,8 @@ guiTypes = {
 						maxWidth = 168
 						maxHeight = 20
 						fixedSize = yes
-						format = left					}
+						format = left
+					}
 				}
 				containerWindowType = {
 					name = "terraforming_in_progress"
@@ -1114,7 +1129,8 @@ guiTypes = {
 						maxWidth = 244
 						maxHeight = 424
 						fixedSize = yes
-						format = left					}
+						format = left
+					}
 				}
 				#<---------------------------- RESOURCES -------------------------------->
 				# Planetary Resources
@@ -1153,7 +1169,8 @@ guiTypes = {
 						maxWidth = 250
 						maxHeight = 20
 						fixedSize = yes
-						format = center						alwaysTransparent = yes
+						format = center
+						alwaysTransparent = yes
 					}
 					instantTextBoxType = {
 						name = "planetary_production_output_amount"
@@ -1174,7 +1191,8 @@ guiTypes = {
 						maxWidth = 250
 						maxHeight = 20
 						fixedSize = yes
-						format = center						alwaysTransparent = yes
+						format = center
+						alwaysTransparent = yes
 					}
 					instantTextBoxType = {
 						name = "planetary_consumption_output_amount"
@@ -1217,7 +1235,8 @@ guiTypes = {
 						maxWidth = 50
 						maxHeight = 20
 						fixedSize = yes
-						format = center						alwaysTransparent = yes
+						format = center
+						alwaysTransparent = yes
 					}
 				}
 				#<---------------------------- Buildings ----------------------------->
@@ -1374,7 +1393,8 @@ guiTypes = {
 						maxWidth = 165
 						maxHeight = 30
 						fixedSize = yes
-						format = left						alwaysTransparent = yes
+						format = left
+						alwaysTransparent = yes
 					}
 					instantTextBoxType = {
 						name = "sector_type"
@@ -1384,7 +1404,8 @@ guiTypes = {
 						maxWidth = 165
 						maxHeight = 30
 						fixedSize = yes
-						format = left						alwaysTransparent = yes
+						format = left
+						alwaysTransparent = yes
 					}
 					buttonType = {
 						name = "open_sector_view"
@@ -1412,11 +1433,13 @@ guiTypes = {
 						maxWidth = 264
 						maxHeight = 20
 						fixedSize = yes
-						format = center						alwaysTransparent = yes
+						format = center
+						alwaysTransparent = yes
 					}
 					smoothListBoxType = {
 						name = "build_queue"
-						position = { x = 2 y = 42 }						size = { x = 260 y = 290 }
+						position = { x = 2 y = 42 }
+						size = { x = 260 y = 290 }
 						borderSize = { x = 0 y = 0 }
 						scrollbartype = "standardlistbox_slider_thick"
 						offset = { x = -3 y = 0 }
@@ -1469,7 +1492,8 @@ guiTypes = {
 					maxWidth = 150
 					maxHeight = 20
 					fixedSize = yes
-					format = left				}
+					format = left
+				}
 				instantTextBoxType = {
 					name = "job_desc_text"
 					font = "cg_16b"
@@ -1478,7 +1502,8 @@ guiTypes = {
 					maxWidth = 160
 					maxHeight = 20
 					fixedSize = yes
-					format = right					text_color_code = "E"
+					format = right
+					text_color_code = "E"
 				}
 			}
 			buttonType = {
@@ -1496,7 +1521,8 @@ guiTypes = {
 				position = { x = 294 y = 46 }
 				size = { x = @pop_strata y = 628 }
 				scrollbarType = "standardlistbox_slider_thick"
-				borderSize = { x = 0 y = 0 }				spacing = 6
+				borderSize = { x = 0 y = 0 }
+				spacing = 6
 			}
 			#<-------------------------- Demographics Panel ---------------------->
 			# Demographics Title Text
@@ -1527,7 +1553,8 @@ guiTypes = {
 					maxWidth = 205
 					maxHeight = 20
 					fixedSize = yes
-					format = left				}
+					format = left
+				}
 			}
 			# Pop Happiness
 			containerWindowType = {
@@ -1584,7 +1611,8 @@ guiTypes = {
 						name = "species_list"
 						position = { x = 125 y = 10 }
 						size = { x = 110 y = 526 }
-						scrollbartype = "standardlistbox_slider_thick"						offset = { x = -3 y = 0 }
+						scrollbartype = "standardlistbox_slider_thick"
+						offset = { x = -3 y = 0 }
 					}
 				}
 				containerWindowType = {
@@ -1660,7 +1688,7 @@ guiTypes = {
 							size = { x = 66 y = 66 }
 							quadTextureSprite = "GFX_button_light"
 							clicksound = "menu_slide_open"
-							shortcut = "G"
+							shortcut = "SHIFT+G"
 						}
 					}
 					#iconType = {
@@ -1975,7 +2003,8 @@ guiTypes = {
 					maxWidth = 200
 					maxHeight = 20
 					fixedSize = yes
-					format = left					#alwaysTransparent = yes
+					format = left
+					#alwaysTransparent = yes
 				}
 				buttonType = {
 					name = "defender_general_border"
@@ -2016,7 +2045,8 @@ guiTypes = {
 					maxWidth = 200
 					maxHeight = 20
 					fixedSize = yes
-					format = left					#alwaysTransparent = yes
+					format = left
+					#alwaysTransparent = yes
 				}
 				gridBoxType = {
 					name = "defender_frontline"
@@ -2063,7 +2093,8 @@ guiTypes = {
 					maxWidth = 100
 					maxHeight = 20
 					fixedSize = yes
-					format = left					#alwaysTransparent = yes
+					format = left
+					#alwaysTransparent = yes
 				}
 				# Attacker
 				instantTextBoxType = {
@@ -2120,7 +2151,8 @@ guiTypes = {
 					maxWidth = 200
 					maxHeight = 20
 					fixedSize = yes
-					format = right					#alwaysTransparent = yes
+					format = right
+					#alwaysTransparent = yes
 				}
 				gridBoxType = {
 					name = "attacker_frontline"
@@ -2172,7 +2204,8 @@ guiTypes = {
 					maxWidth = 100
 					maxHeight = 20
 					fixedSize = yes
-					format = right					#alwaysTransparent = yes
+					format = right
+					#alwaysTransparent = yes
 				}
 				buttonType = {
 					name = "retreat_button"
@@ -2204,7 +2237,8 @@ guiTypes = {
 					maxHeight = 20
 					fixedSize = yes
 					format = center
-					text_color_code = "H"					#alwaysTransparent = yes
+					text_color_code = "H"
+					#alwaysTransparent = yes
 				}
 				instantTextBoxType = {
 					name = "defender_reserves"
@@ -2214,7 +2248,8 @@ guiTypes = {
 					maxWidth = 200
 					maxHeight = 20
 					fixedSize = yes
-					format = center					#alwaysTransparent = yes
+					format = center
+					#alwaysTransparent = yes
 				}
 				instantTextBoxType = {
 					name = "attacker_reserves"
@@ -2225,7 +2260,8 @@ guiTypes = {
 					maxWidth = 200
 					maxHeight = 20
 					fixedSize = yes
-					format = center					#alwaysTransparent = yes
+					format = center
+					#alwaysTransparent = yes
 				}
 			}
 			containerWindowType = {
@@ -2256,7 +2292,8 @@ guiTypes = {
 						maxWidth = 115
 						maxHeight = 20
 						fixedSize = yes
-						format = left					}
+						format = left
+					}
 					# Needs Code ---- Should display proper version of icon.
 					iconType = {
 						name = "devastation_icon_armies"
@@ -2307,7 +2344,8 @@ guiTypes = {
 						maxWidth = 168
 						maxHeight = 20
 						fixedSize = yes
-						format = left					}
+						format = left
+					}
 				}
 				#Armies Buttons
 				buttonType = {
@@ -2317,7 +2355,8 @@ guiTypes = {
 					buttonFont = "cg_16b"
 					text = "RECRUIT"
 					pdx_tooltip = "RECRUIT_INFO"
-					font = "cg_16b"					oversound = mouse_over
+					font = "cg_16b"
+					oversound = mouse_over
 					navLeft = "change"
 					shortcut = "B"
 				}
@@ -2328,7 +2367,8 @@ guiTypes = {
 					buttonFont = "cg_16b"
 					text = "PLANET_VIEW_EMBARK_ALL"
 					pdx_tooltip = "PLANET_VIEW_EMBARK_INFO"
-					font = "cg_16b"					oversound = mouse_over
+					font = "cg_16b"
+					oversound = mouse_over
 					navLeft = "change"
 				}
 				#Broken
@@ -2341,7 +2381,8 @@ guiTypes = {
 					maxWidth = 100
 					maxHeight = 40
 					fixedSize = yes
-					format = left					alwaysTransparent = yes
+					format = left
+					alwaysTransparent = yes
 					pdx_tooltip = "GARRISON_ARMY"
 				}
 				instantTextBoxType = {
@@ -2352,7 +2393,8 @@ guiTypes = {
 					maxWidth = 100
 					maxHeight = 40
 					fixedSize = yes
-					format = left					alwaysTransparent = yes
+					format = left
+					alwaysTransparent = yes
 					pdx_tooltip = "GARRISON_ARMY"
 				}
 				instantTextBoxType = {
@@ -2363,7 +2405,8 @@ guiTypes = {
 					maxWidth = 100
 					maxHeight = 40
 					fixedSize = yes
-					format = left					alwaysTransparent = yes
+					format = left
+					alwaysTransparent = yes
 					pdx_tooltip = "GARRISON_ARMY"
 				}
 				instantTextBoxType = {
@@ -2374,7 +2417,8 @@ guiTypes = {
 					maxWidth = 100
 					maxHeight = 40
 					fixedSize = yes
-					format = left					alwaysTransparent = yes
+					format = left
+					alwaysTransparent = yes
 					pdx_tooltip = "GARRISON_ARMY"
 				}
 				#Armies List
@@ -2394,11 +2438,13 @@ guiTypes = {
 						maxWidth = 340
 						maxHeight = 20
 						fixedSize = yes
-						format = center						alwaysTransparent = yes
+						format = center
+						alwaysTransparent = yes
 					}
 					smoothListBoxType = {
 						name = "armies_list"
-						position = { x = 4 y = 1 }						size = { x = 332 y = 528 }
+						position = { x = 4 y = 1 }
+						size = { x = 332 y = 528 }
 						borderSize = { x = 0 y = 0 }
 						spacing = 2
 						scrollbartype = "standardlistbox_slider_thick"
@@ -2429,7 +2475,8 @@ guiTypes = {
 						maxWidth = 168
 						maxHeight = 20
 						fixedSize = yes
-						format = left					}
+						format = left
+					}
 				}
 				containerWindowType = {
 					name = "no_general_window"
@@ -2477,7 +2524,7 @@ guiTypes = {
 						quadTextureSprite = "GFX_button_light"
 						size = { x = 76 y = 89 }
 						position = { x = 102 y = 38 }
-						shortcut = "G"
+						shortcut = "SHIFT+G"
 					}
 				}
 				containerWindowType = {
@@ -2527,13 +2574,14 @@ guiTypes = {
 						maxWidth = 260
 						maxHeight = 20
 						fixedSize = yes
-						format = center					}
+						format = center
+					}
 					buttonType = {
 						name = "change_general"
 						quadTextureSprite = "GFX_button_light"
 						size = { x = 272 y = 159 }
 						position = { x = 4 y = 4 }
-						shortcut = "G"
+						shortcut = "SHIFT+G"
 					}
 					iconType = {
 						name = "general_skill"
@@ -2570,11 +2618,13 @@ guiTypes = {
 						maxWidth = 264
 						maxHeight = 20
 						fixedSize = yes
-						format = center						alwaysTransparent = yes
+						format = center
+						alwaysTransparent = yes
 					}
 					smoothListBoxType = {
 						name = "build_queue"
-						position = { x = 2 y = 2 }						size = { x = 260 y = 500 }
+						position = { x = 2 y = 2 }
+						size = { x = 260 y = 500 }
 						borderSize = { x = 0 y = 0 }
 						scrollbartype = "standardlistbox_slider_thick"
 						offset = { x = -3 y = 0 }
@@ -2597,7 +2647,8 @@ guiTypes = {
 						maxWidth = 200
 						maxHeight = 20
 						fixedSize = yes
-						format = center						alwaysTransparent = yes
+						format = center
+						alwaysTransparent = yes
 					}
 					iconType = {
 						name = "orbiting_icon"
@@ -2612,7 +2663,8 @@ guiTypes = {
 						maxWidth = 300
 						maxHeight = 20
 						fixedSize = yes
-						format = left						alwaysTransparent = yes
+						format = left
+						alwaysTransparent = yes
 					}
 					instantTextBoxType = {
 						name = "orbiting_power"
@@ -2622,7 +2674,8 @@ guiTypes = {
 						maxWidth = 300
 						maxHeight = 20
 						fixedSize = yes
-						format = left						alwaysTransparent = yes
+						format = left
+						alwaysTransparent = yes
 					}
 					buttonType = {
 						name = "land_armies"
@@ -2630,7 +2683,8 @@ guiTypes = {
 						spriteType = "GFX_standard_button_116_34"
 						buttonFont = "cg_16b"
 						text = "FLEETORDER_LAND_ARMIES_TITLE"
-						font = "cg_16b"						oversound = mouse_over
+						font = "cg_16b"
+						oversound = mouse_over
 					}
 				}
 			}
@@ -2661,7 +2715,8 @@ guiTypes = {
 					maxWidth = 511
 					maxHeight = 60
 					fixedSize = yes
-					format = left					alwaysTransparent = yes
+					format = left
+					alwaysTransparent = yes
 				}
 				buttonType = {
 					name = "establish_branch_office"
@@ -2715,7 +2770,8 @@ guiTypes = {
 						maxWidth = 250
 						maxHeight = 20
 						fixedSize = yes
-						format = center						alwaysTransparent = yes
+						format = center
+						alwaysTransparent = yes
 					}
 					instantTextBoxType = {
 						name = "branch_office_production_output_amount"
@@ -2736,7 +2792,8 @@ guiTypes = {
 						maxWidth = 250
 						maxHeight = 20
 						fixedSize = yes
-						format = center						alwaysTransparent = yes
+						format = center
+						alwaysTransparent = yes
 					}
 					instantTextBoxType = {
 						name = "branch_office_consumption_output_amount"
@@ -2772,7 +2829,8 @@ guiTypes = {
 						maxWidth = 442
 						maxHeight = 20
 						fixedSize = yes
-						format = left						alwaysTransparent = yes
+						format = left
+						alwaysTransparent = yes
 						text_color_code = "E"
 					}
 					buttonType = {
@@ -2805,7 +2863,8 @@ guiTypes = {
 						maxWidth = 295
 						maxHeight = 20
 						fixedSize = yes
-						format = center					}
+						format = center
+					}
 				}
 				gridBoxType = {
 					name = "buildings_box"
@@ -2834,11 +2893,13 @@ guiTypes = {
 						maxWidth = 264
 						maxHeight = 20
 						fixedSize = yes
-						format = center						alwaysTransparent = yes
+						format = center
+						alwaysTransparent = yes
 					}
 					smoothListBoxType = {
 						name = "build_queue"
-						position = { x = 2 y = 2 }						size = { x = 260 y = 327 }
+						position = { x = 2 y = 2 }
+						size = { x = 260 y = 327 }
 						borderSize = { x = 0 y = 0 }
 						scrollbartype = "standardlistbox_slider_thick"
 						offset = { x = -3 y = 0 }
@@ -2867,7 +2928,8 @@ guiTypes = {
 					maxWidth = 50
 					maxHeight = 20
 					fixedSize = yes
-					format = center					alwaysTransparent = yes
+					format = center
+					alwaysTransparent = yes
 				}
 			}
 		}
@@ -3032,7 +3094,8 @@ guiTypes = {
 					position = { x = 10 y = 10 }
 					maxWidth = @sidebar_inner_w
 					maxHeight = 20
-					fixedSize = yes					text_color_code = "E"
+					fixedSize = yes
+					text_color_code = "E"
 					format = CENTER
 					alwaysTransparent = yes
 				}
@@ -3043,7 +3106,8 @@ guiTypes = {
 					size = { x = @sidebar_inner_w y = @sidebar_list_h }
 					scrollbarType = "standardlistbox_slider_thick"
 					offset = { x = -3 y = 0 }
-					borderSize = { x = 0 y = 0 }					spacing = 4
+					borderSize = { x = 0 y = 0 }
+					spacing = 4
 				}
 			}
 			containerWindowType = {
@@ -3057,7 +3121,8 @@ guiTypes = {
 					position = { x = 10 y = 10 }
 					maxWidth = @sidebar_inner_w
 					maxHeight = 20
-					fixedSize = yes					text_color_code = "E"
+					fixedSize = yes
+					text_color_code = "E"
 					format = CENTER
 					alwaysTransparent = yes
 				}
@@ -3067,9 +3132,10 @@ guiTypes = {
 					spriteType = "GFX_standard_button_116_34"
 					buttonFont = "cg_16b"
 					text = "REPLACE"
-					font = "cg_16b"					oversound = mouse_over
+					font = "cg_16b"
+					oversound = mouse_over
 					navLeft = "change"
-					shortcut = "P"
+					shortcut = "r"
 				}
 				buttonType = {
 					name = "destroy_building"
@@ -3077,9 +3143,10 @@ guiTypes = {
 					spriteType = "GFX_standard_button_116_34"
 					buttonFont = "cg_16b"
 					text = "DESTROY"
-					font = "cg_16b"					oversound = "mouse_over"
+					font = "cg_16b"
+					oversound = "mouse_over"
 					navLeft = "change"
-					shortcut = "del"
+					shortcut = "Return"
 				}
 				buttonType = {
 					name = "enable_disable_building"
@@ -3087,7 +3154,8 @@ guiTypes = {
 					spriteType = "GFX_standard_button_116_34"
 					buttonFont = "cg_16b"
 					text = "DISABLE"
-					font = "cg_16b"					oversound = mouse_over
+					font = "cg_16b"
+					oversound = mouse_over
 					navLeft = "change"
 				}
 				buttonType = {
@@ -3096,7 +3164,8 @@ guiTypes = {
 					spriteType = "GFX_standard_button_116_34"
 					buttonFont = "cg_16b"
 					text = "REPAIR"
-					font = "cg_16b"					oversound = mouse_over
+					font = "cg_16b"
+					oversound = mouse_over
 					navLeft = "change"
 				}
 				containerWindowType = {
@@ -3174,7 +3243,8 @@ guiTypes = {
 						position = { x = 20 y = 0 }
 						maxWidth = @sidebar_inner_w
 						maxHeight = 20
-						fixedSize = yes						format = CENTER
+						fixedSize = yes
+						format = CENTER
 					}
 					smoothListboxType = {
 						name = "upgrades_list"
@@ -3182,7 +3252,8 @@ guiTypes = {
 						size = { x = @sidebar_inner_w y = 350 }
 						scrollbarType = "standardlistbox_slider_thick"
 						offset = { x = -3 y = 0 }
-						borderSize = { x = 0 y = 0 }						spacing = 4
+						borderSize = { x = 0 y = 0 }
+						spacing = 4
 					}
 				}
 			}
@@ -3197,7 +3268,8 @@ guiTypes = {
 					position = { x = 10 y = 10 }
 					maxWidth = @sidebar_inner_w
 					maxHeight = 20
-					fixedSize = yes					text_color_code = "E"
+					fixedSize = yes
+					text_color_code = "E"
 					format = CENTER
 					alwaysTransparent = yes
 				}
@@ -3207,7 +3279,8 @@ guiTypes = {
 					spriteType = "GFX_standard_button_116_34"
 					buttonFont = "cg_16b"
 					text = "BUILD"
-					font = "cg_16b"					oversound = mouse_over
+					font = "cg_16b"
+					oversound = mouse_over
 					navLeft = "change"
 					clicksound = "ui_queuing_district"
 					shortcut = "b"
@@ -3218,9 +3291,10 @@ guiTypes = {
 					spriteType = "GFX_standard_button_116_34"
 					buttonFont = "cg_16b"
 					text = "DESTROY"
-					font = "cg_16b"					oversound = mouse_over
+					font = "cg_16b"
+					oversound = mouse_over
 					navLeft = "change"
-					shortcut = "del"
+					shortcut = "Return"
 				}
 				buttonType = {
 					name = "replace_district"
@@ -3228,9 +3302,10 @@ guiTypes = {
 					spriteType = "GFX_standard_button_116_34"
 					buttonFont = "cg_16b"
 					text = "REPLACE"
-					font = "cg_16b"					oversound = mouse_over
+					font = "cg_16b"
+					oversound = mouse_over
 					navLeft = "change"
-					shortcut = "P"
+					shortcut = "r"
 				}
 				buttonType = {
 					name = "quick_clear_blocker"
@@ -3238,7 +3313,8 @@ guiTypes = {
 					spriteType = "GFX_standard_button_116_34"
 					buttonFont = "cg_16b"
 					text = "CLEAR_BLOCKER"
-					font = "cg_16b"					oversound = mouse_over
+					font = "cg_16b"
+					oversound = mouse_over
 					navLeft = "change"
 					clicksound = "ui_demolish_building_district"
 				}
@@ -3397,7 +3473,8 @@ guiTypes = {
 					position = { x = 10 y = 10 }
 					maxWidth = @sidebar_inner_w
 					maxHeight = 20
-					fixedSize = yes					text_color_code = "E"
+					fixedSize = yes
+					text_color_code = "E"
 					format = CENTER
 					alwaysTransparent = yes
 				}
@@ -3438,7 +3515,8 @@ guiTypes = {
 						position = { x = 15 y = 5 }
 						maxWidth = 310
 						maxHeight = 20
-						fixedSize = yes						format = left
+						fixedSize = yes
+						format = left
 					}
 					instantTextBoxType = {
 						name = "habitability"
@@ -3447,7 +3525,8 @@ guiTypes = {
 						position = { x = 15 y = 35 }
 						maxWidth = 310
 						maxHeight = 20
-						fixedSize = yes						format = left
+						fixedSize = yes
+						format = left
 					}
 					buttonType = {
 						name = "traits_ethics_frame"
@@ -3544,7 +3623,8 @@ guiTypes = {
 						position = { x = 20 y = 10 }
 						maxWidth = 395
 						maxHeight = 20
-						fixedSize = yes						format = left
+						fixedSize = yes
+						format = left
 					}
 					instantTextBoxType = {
 						name = "pop_category"
@@ -3553,7 +3633,8 @@ guiTypes = {
 						position = { x = 20 y = 30 }
 						maxWidth = 395
 						maxHeight = 20
-						fixedSize = yes						format = left
+						fixedSize = yes
+						format = left
 					}
 					instantTextBoxType = {
 						name = "pop_faction"
@@ -3562,7 +3643,8 @@ guiTypes = {
 						position = { x = 20 y = 50 }
 						maxWidth = 395
 						maxHeight = 20
-						fixedSize = yes						format = left
+						fixedSize = yes
+						format = left
 					}
 					instantTextBoxType = {
 						name = "happiness"
@@ -3571,7 +3653,8 @@ guiTypes = {
 						position = { x = 20 y = 70 }
 						maxWidth = 395
 						maxHeight = 20
-						fixedSize = yes						format = left
+						fixedSize = yes
+						format = left
 					}
 					instantTextBoxType = {
 						name = "political_power"
@@ -3580,7 +3663,8 @@ guiTypes = {
 						position = { x = 20 y = 90 }
 						maxWidth = 395
 						maxHeight = 20
-						fixedSize = yes						format = left
+						fixedSize = yes
+						format = left
 					}
 					instantTextBoxType = {
 						name = "crime"
@@ -3589,7 +3673,8 @@ guiTypes = {
 						position = { x = 20 y = 110 }
 						maxWidth = 395
 						maxHeight = 20
-						fixedSize = yes						format = left
+						fixedSize = yes
+						format = left
 					}
 					instantTextBoxType = {
 						name = "housing_needs"
@@ -3598,7 +3683,8 @@ guiTypes = {
 						position = { x = 20 y = 130 }
 						maxWidth = 395
 						maxHeight = 20
-						fixedSize = yes						format = left
+						fixedSize = yes
+						format = left
 					}
 					instantTextBoxType = {
 						name = "amenities_usage"
@@ -3607,7 +3693,8 @@ guiTypes = {
 						position = { x = 20 y = 150 }
 						maxWidth = 395
 						maxHeight = 20
-						fixedSize = yes						format = left
+						fixedSize = yes
+						format = left
 					}
 					instantTextBoxType = {
 						name = "production"
@@ -3616,7 +3703,8 @@ guiTypes = {
 						position = { x = 20 y = 170 }
 						maxWidth = 395
 						maxHeight = 20
-						fixedSize = yes						format = left
+						fixedSize = yes
+						format = left
 					}
 					instantTextBoxType = {
 						name = "upkeep"
@@ -3625,7 +3713,8 @@ guiTypes = {
 						position = { x = 20 y = 190 }
 						maxWidth = 395
 						maxHeight = 20
-						fixedSize = yes						format = left
+						fixedSize = yes
+						format = left
 					}
 				}
 			}
@@ -3639,7 +3728,8 @@ guiTypes = {
 					position = { x = 10 y = 10 }
 					maxWidth = @sidebar_inner_w
 					maxHeight = 20
-					fixedSize = yes					text_color_code = "E"
+					fixedSize = yes
+					text_color_code = "E"
 					format = CENTER
 					alwaysTransparent = yes
 				}
@@ -3650,7 +3740,8 @@ guiTypes = {
 					size = { x = @sidebar_inner_w y = @sidebar_list_h }
 					scrollbarType = "standardlistbox_slider_thick"
 					offset = { x = -3 y = 0 }
-					borderSize = { x = 0 y = 0 }					spacing = 4
+					borderSize = { x = 0 y = 0 }
+					spacing = 4
 				}
 				containerWindowType = {
 					name = "terraforming_ongoing_window"
@@ -3739,7 +3830,8 @@ guiTypes = {
 					position = { x = 10 y = 10 }
 					maxWidth = @sidebar_inner_w
 					maxHeight = 20
-					fixedSize = yes					text_color_code = "E"
+					fixedSize = yes
+					text_color_code = "E"
 					format = CENTER
 					alwaysTransparent = yes
 				}
@@ -3750,7 +3842,8 @@ guiTypes = {
 					size = { x = @sidebar_inner_w y = @sidebar_list_h }
 					scrollbarType = "standardlistbox_slider_thick"
 					offset = { x = -3 y = 0 }
-					borderSize = { x = 0 y = 0 }					spacing = 4
+					borderSize = { x = 0 y = 0 }
+					spacing = 4
 				}
 			}
 			# Colony Designations Selection Window --------------
@@ -3764,7 +3857,8 @@ guiTypes = {
 					position = { x = 10 y = 10 }
 					maxWidth = @sidebar_inner_w
 					maxHeight = 20
-					fixedSize = yes					text_color_code = "E"
+					fixedSize = yes
+					text_color_code = "E"
 					format = CENTER
 					alwaysTransparent = yes
 				}
@@ -3774,7 +3868,8 @@ guiTypes = {
 					position = { x = 5 y = 60 }
 					size = { x = @sidebar_inner_w y = @sidebar_list_h }
 					scrollbarType = "standardlistbox_slider"
-					borderSize = { x = 0 y = 0 }					spacing = 4
+					borderSize = { x = 0 y = 0 }
+					spacing = 4
 				}
 			}
 			containerWindowType = {
@@ -3787,7 +3882,8 @@ guiTypes = {
 					position = { x = 10 y = 10 }
 					maxWidth = @sidebar_inner_w
 					maxHeight = 20
-					fixedSize = yes					text_color_code = "E"
+					fixedSize = yes
+					text_color_code = "E"
 					format = CENTER
 					alwaysTransparent = yes
 				}
@@ -3798,7 +3894,8 @@ guiTypes = {
 					size = { x = @sidebar_inner_w y = @sidebar_list_h_construction }
 					scrollbarType = "standardlistbox_slider_thick"
 					offset = { x = -3 y = 0 }
-					borderSize = { x = 0 y = 0 }					spacing = 2
+					borderSize = { x = 0 y = 0 }
+					spacing = 2
 				}
 			}
 			containerWindowType = {
@@ -3811,7 +3908,8 @@ guiTypes = {
 					position = { x = 10 y = 10 }
 					maxWidth = @sidebar_inner_w
 					maxHeight = 20
-					fixedSize = yes					text_color_code = "E"
+					fixedSize = yes
+					text_color_code = "E"
 					format = CENTER
 					alwaysTransparent = yes
 				}
@@ -3822,7 +3920,8 @@ guiTypes = {
 					size = { x = @sidebar_inner_w y = @sidebar_list_h }
 					scrollbarType = "standardlistbox_slider_thick"
 					offset = { x = -3 y = 0 }
-					borderSize = { x = 0 y = 0 }					spacing = 4
+					borderSize = { x = 0 y = 0 }
+					spacing = 4
 				}
 			}
 			containerWindowType = {
@@ -3835,7 +3934,8 @@ guiTypes = {
 					position = { x = 10 y = 10 }
 					maxWidth = @sidebar_inner_w
 					maxHeight = 20
-					fixedSize = yes					text_color_code = "E"
+					fixedSize = yes
+					text_color_code = "E"
 					format = CENTER
 					alwaysTransparent = yes
 				}
@@ -3845,7 +3945,8 @@ guiTypes = {
 					size = { x = @sidebar_inner_w y = @sidebar_list_h }
 					scrollbarType = "standardlistbox_slider_thick"
 					offset = { x = -3 y = 0 }
-					borderSize = { x = 0 y = 0 }					spacing = 4
+					borderSize = { x = 0 y = 0 }
+					spacing = 4
 				}
 			}
 			containerWindowType = {
@@ -3858,7 +3959,8 @@ guiTypes = {
 					position = { x = 10 y = 10 }
 					maxWidth = @sidebar_inner_w
 					maxHeight = 20
-					fixedSize = yes					text_color_code = "E"
+					fixedSize = yes
+					text_color_code = "E"
 					format = CENTER
 					alwaysTransparent = yes
 				}
@@ -3869,7 +3971,8 @@ guiTypes = {
 					size = { x = @sidebar_inner_w y = @sidebar_list_h }
 					scrollbarType = "standardlistbox_slider_thick"
 					offset = { x = -3 y = 0 }
-					borderSize = { x = 0 y = 0 }					spacing = 1
+					borderSize = { x = 0 y = 0 }
+					spacing = 1
 				}
 			}
 		}
@@ -4271,7 +4374,8 @@ guiTypes = {
 				position = { x = 7 y = 3 }
 				maxWidth = 160
 				maxHeight = 20
-				fixedSize = yes				format = left
+				fixedSize = yes
+				format = left
 				alwaysTransparent = yes
 			}
 			instantTextBoxType = {
@@ -4502,7 +4606,8 @@ guiTypes = {
 				position = { x = 0 y = 3 }
 				size = { x = 0 y = 210 }
 				scrollbarType = "standardlistbox_slider_thick"
-				borderSize = { x = 0 y = 0 }				spacing = 2
+				borderSize = { x = 0 y = 0 }
+				spacing = 2
 				alwaysTransparent = yes
 			}
 		}
@@ -4759,7 +4864,8 @@ guiTypes = {
 			position = { x = 85 y = 25 }
 			maxWidth = 340
 			maxHeight = 20
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 			text_color_code = "E"
 			alwaysTransparent = yes
 		}
@@ -5043,6 +5149,7 @@ guiTypes = {
 			size = { x = @slotsize y = @slotsize }
 			quadTextureSprite = "GFX_button_light"
 			clicksound = "menu_slide_open"
+			shortCut = "F"
 		}
 		iconType = {
 			name = "selected_building_icon"
@@ -5057,6 +5164,7 @@ guiTypes = {
 			position = { x = 4 y = 5 }
 			clicksound = "queuing_building"
 			scale = 0.80
+			shortCut = "G"
 		}
 	}
 	containerWindowType = {
@@ -5372,7 +5480,8 @@ guiTypes = {
 		iconType = {
 			name = "army_hp"
 			spriteType = "GFX_ship_life_radial_progress"
-			position = { x = 36 y = -42 }			rotation = 3.14159
+			position = { x = 36 y = -42 }
+			rotation = 3.14159
 			frame = 100
 			alwaystransparent = yes
 		}

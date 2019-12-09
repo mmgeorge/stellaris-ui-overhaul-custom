@@ -37,7 +37,8 @@ guiTypes = {
 			iconType = {
 				name = "stripes_1"
 				spriteType = "GFX_planetview_stripes_1"
-				position = { x = -10 y = 12 }				alwaysTransparent = yes
+				position = { x = -10 y = 12 }
+				alwaysTransparent = yes
 			}
 			iconType = {
 				name = "city_frame"
@@ -73,6 +74,7 @@ guiTypes = {
 			quadTextureSprite = "gfx_transparency_button"
 			position = { x = 5 y = 2 }
 			size = { x = 278 y = 30 }
+			shortCut ="shift+e"
 		}
 		containerWindowType = {
 			name = "starbase_tab"
@@ -169,7 +171,7 @@ guiTypes = {
 					#text = "STARBASE_UPGRADE"
 					#font = "cg_16b"
 					clicksound = "click_upgrade_starbase"
-					shortCut = "U"
+					shortCut = "g"
 				}
 			}
 			containerWindowType = {
@@ -267,7 +269,8 @@ guiTypes = {
 				}
 				smoothListBoxType = {
 					name = "build_queue_list"
-					position = { x = 2 y = 43 }					size = { x = 237 y = 540 }
+					position = { x = 2 y = 43 }
+					size = { x = 237 y = 540 }
 					borderSize = { x = 0 y = 0 }
 					scrollbartype = "standardlistbox_slider_thick"
 					autohide_scrollbar = no
@@ -314,7 +317,7 @@ guiTypes = {
 					position = { x = -73 y = 2 }
 					orientation = "UPPER_RIGHT"
 					buttonFont = "cg_16b"
-					shortCut = "U"
+					shortCut = "g"
 				}
 				buttonType = {
 					name = "disband_all"
@@ -341,7 +344,8 @@ guiTypes = {
 					maxWidth = 210
 					maxHeight = 20
 					fixedSize = yes
-					format = center					alwaysTransparent = yes
+					format = center
+					alwaysTransparent = yes
 				}
 				instantTextBoxType = {
 					name = "no_orbitals"
@@ -387,7 +391,8 @@ guiTypes = {
 				}
 				smoothListBoxType = {
 					name = "build_queue_list"
-					position = { x = 10 y = 43 }					size = { x = 237 y = 593 }
+					position = { x = 10 y = 43 }
+					size = { x = 237 y = 593 }
 					borderSize = { x = 0 y = 0 }
 					scrollbartype = "standardlistbox_slider_thick"
 					autohide_scrollbar = no
@@ -471,7 +476,8 @@ guiTypes = {
 				}
 				smoothListBoxType = {
 					name = "fleets_list"
-					position = { x = 10 y = 10 }					size = { x = 246 y = 543 }
+					position = { x = 10 y = 10 }
+					size = { x = 246 y = 543 }
 					borderSize = { x = 0 y = 0 }
 					scrollbartype = "standardlistbox_slider_thick"
 					autohide_scrollbar = no
@@ -535,7 +541,8 @@ guiTypes = {
 				}
 				smoothListBoxType = {
 					name = "build_queue_list"
-					position = { x = 10 y = 43 }					size = { x = 237 y = 510 }
+					position = { x = 10 y = 43 }
+					size = { x = 237 y = 510 }
 					borderSize = { x = 0 y = 0 }
 					scrollbartype = "standardlistbox_slider_thick"
 					autohide_scrollbar = no
@@ -647,7 +654,8 @@ guiTypes = {
 			position = { x = 12 y = 12 }
 			maxWidth = 303
 			maxHeight = 20
-			fixedSize = yes			#text_color_code = "E"
+			fixedSize = yes
+			#text_color_code = "E"
 			format = CENTER
 		}
 		# Close Button
@@ -665,7 +673,8 @@ guiTypes = {
 			position = { x = 12 y = 53 }
 			size = { x = @side_view_list_width y = 820 }
 			scrollbarType = "standardlistbox_slider_thick"
-			borderSize = { x = 0 y = 0 }			spacing = 1
+			borderSize = { x = 0 y = 0 }
+			spacing = 1
 		}
 	}
 	containerWindowType = {
@@ -681,7 +690,8 @@ guiTypes = {
 			position = { x = 0 y = 10 }
 			size = { x = @side_view_list_width y = 690 }
 			scrollbartype = "standardlistbox_slider_thick"
-			borderSize = { x = 0 y = 0 }			spacing = 1
+			borderSize = { x = 0 y = 0 }
+			spacing = 1
 		}
 	}
 	containerWindowType = {
@@ -704,7 +714,8 @@ guiTypes = {
 			font = "cg_16b"
 			text = "NAME"
 			text_color_code = "H"
-			position = { x = 50 y = 3 }			maxWidth = 303
+			position = { x = 50 y = 3 }
+			maxWidth = 303
 			maxHeight = 20
 			fixedSize = yes
 			format = centre
@@ -718,6 +729,7 @@ guiTypes = {
 			text = "STARBASE_DISMANTLE_LABEL"
 			font = "cg_16b"
 			clicksound = "click_dismantle_starbase"
+			shortcut = "Return"
 		}
 	}
 	containerWindowType = {
@@ -741,7 +753,8 @@ guiTypes = {
 			font = "cg_16b"
 			text = "NAME"
 			text_color_code = "H"
-			position = { x = 50 y = 5 }			maxWidth = 303
+			position = { x = 50 y = 5 }
+			maxWidth = 303
 			maxHeight = 20
 			fixedSize = yes
 			format = center
@@ -751,7 +764,8 @@ guiTypes = {
 			name = "cost"
 			font = "cg_16b"
 			text = "COST"
-			position = { x = 50 y = 26 }			maxWidth = 303
+			position = { x = 50 y = 26 }
+			maxWidth = 303
 			maxHeight = 80
 			fixedSize = yes
 			format = center
@@ -781,7 +795,8 @@ guiTypes = {
 			maxWidth = @side_view_entry_width
 			maxHeight = 20
 			fixedSize = yes
-			format = left			alwaysTransparent = yes
+			format = left
+			alwaysTransparent = yes
 		}
 		instantTextBoxType = {
 			name = "cost"
@@ -803,7 +818,8 @@ guiTypes = {
 			maxWidth = 230
 			maxHeight = 20
 			fixedSize = yes
-			format = left			alwaysTransparent = yes
+			format = left
+			alwaysTransparent = yes
 			text_color_code = "E"
 		}
 		instantTextBoxType = {
@@ -962,7 +978,8 @@ guiTypes = {
 			maxHeight = 40
 			fixedSize = yes
 			format = left
-			vertical_alignment = center			alwaysTransparent = yes
+			vertical_alignment = center
+			alwaysTransparent = yes
 		}
 		iconType = {
 			name = "repairing"
@@ -1061,7 +1078,8 @@ guiTypes = {
 			maxHeight = 30
 			fixedSize = yes
 			format = left
-			vertical_alignment = center			alwaysTransparent = yes
+			vertical_alignment = center
+			alwaysTransparent = yes
 		}
 	}
 	### Popcat selection dialog
@@ -1103,11 +1121,13 @@ guiTypes = {
 			position = { x = 17 y = 14 }
 			maxWidth = 344
 			maxHeight = 40
-			fixedSize = yes			alwaysTransparent = yes
+			fixedSize = yes
+			alwaysTransparent = yes
 		}
 		smoothListBoxType = {
 			name = "popcats"
-			position = { x = 18 y = 48 }			size = { x = 507‬ y = 877 }
+			position = { x = 18 y = 48 }
+			size = { x = 507‬ y = 877 }
 			if_resolution = {
 				min_height = 1200
 				size = { x = 507‬ y = 997 }
@@ -1164,7 +1184,8 @@ guiTypes = {
 			maxWidth = 200
 			maxHeight = 40
 			fixedSize = yes
-			format = left			text_color_code = "E"
+			format = left
+			text_color_code = "E"
 			alwaysTransparent = yes
 		}
 		instantTextBoxType = {
@@ -1175,7 +1196,8 @@ guiTypes = {
 			maxWidth = 160
 			maxHeight = 40
 			fixedSize = yes
-			format = left			alwaysTransparent = yes
+			format = left
+			alwaysTransparent = yes
 			pdx_tooltip = "IDEAL_PLANET_CLASS_TOOLTIP"
 		}
 		overlappingElementsBoxType = {

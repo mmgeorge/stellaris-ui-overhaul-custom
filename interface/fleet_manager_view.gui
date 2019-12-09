@@ -9,6 +9,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "fleet_manager_view"
 		size = { width = 1196 height = 880 }
+		movable = yes
 		show_position = { x = 35 y = 40 }
 		if_resolution = {
 			min_width = 2560
@@ -85,6 +86,7 @@ guiTypes = {
 				quadTextureSprite = "gfx_transparency_button"
 				position = { x = 6 y = 14 }
 				size = { x = 180 y = 26 }
+				shortCut ="shift+e"
 			}
 			instantTextBoxType = {
 				name = "fleet_name"
