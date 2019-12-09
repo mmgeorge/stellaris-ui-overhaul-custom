@@ -390,7 +390,7 @@
 		"species" "CTRL+x"
 		"leaders" "CTRL+z"
 		"claims" "ALT+c"
-		"factions" "CTRL+f" }	# Shortcuts for topbar buttons, there aren't enough F-keys!
+		"factions" "CTRL+a" }	# Shortcuts for topbar buttons, there aren't enough F-keys!
 		TOPBAR_BUTTONS_PRIORITY	= {
 		"contacts"
 		"situation"
