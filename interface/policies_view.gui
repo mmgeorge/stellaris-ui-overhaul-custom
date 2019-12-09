@@ -19,6 +19,17 @@ guiTypes = {
 		}
 		animation_time = 200
 		animation_type = decelerated
+		# Ultrawide
+		if_resolution = {
+			min_width = 3440
+			size = { width = 595 height = 850 }
+			movable = yes
+			animation_time = 0	
+			hide_position = { x = 0 y = -40 }
+			show_position = { x = 0 y = -40 }
+			orientation = center
+			origo = center
+		}
 		background = {
 			name = "background"
 			spriteType = "GFX_ui_tile_large_bg_plain"
@@ -74,6 +85,10 @@ guiTypes = {
 				min_height = 1440
 				size = { width = 583 height = 1085 }
 			}
+			if_resolution {
+				min_width = 3440; 
+				size = { width = 583 height = 786 }
+			}
 			moveable = no
 			background = {
 				name = "background"
@@ -91,9 +106,14 @@ guiTypes = {
 					min_height = 1440
 					size = { x = 550 y = 1067 }
 				}
+				if_resolution {
+					min_width = 3440; 
+					size = { x = 550 y = 767 }
+				}
 				spacing = -2
 				scrollbartype = "standardlistbox_slider_thick"
-				borderSize = { x = 0 y = 0 }				autohide_scrollbar = no
+				borderSize = { x = 0 y = 0 }
+				autohide_scrollbar = no
 			}
 		}
 	}

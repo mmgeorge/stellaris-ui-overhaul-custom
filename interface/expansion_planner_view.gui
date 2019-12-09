@@ -152,7 +152,8 @@ guiTypes = {
 				maxWidth = 50
 				maxHeight = 50
 				fixedSize = yes
-				format = right				alwaysTransparent = yes
+				format = right
+				alwaysTransparent = yes
 			}
 		}
 		instantTextBoxType = {
@@ -367,6 +368,16 @@ guiTypes = {
 			name = "bg"
 			spriteType = "GFX_tile_large_bg"
 		}
+		# Ultrawide
+		if_resolution = {
+			min_width = 3440
+			movable = yes
+			animation_time = 0	
+			hide_position = { x = 0 y = 0 }
+			show_position = { x = 0 y = 0 }
+			orientation = center
+			origo = center
+		}
 		### WINDOW HEADER ###
 		buttonType = {
 			name = "close"
@@ -439,7 +450,8 @@ guiTypes = {
 				font = "cg_16b"
 				spriteType = "GFX_button_95_24"
 				buttonText = "PLANETVIEW_PLANET_CLASS"
-				position = { x = 0 y = @sort_button_height }				pdx_tooltip = "EXPANSION_PLANNER_SORT_CLASS"
+				position = { x = 0 y = @sort_button_height }
+				pdx_tooltip = "EXPANSION_PLANNER_SORT_CLASS"
 				oversound = mouse_over
 			}
 			buttonType = {
@@ -447,7 +459,8 @@ guiTypes = {
 				font = "cg_16b"
 				spriteType = "GFX_button_35_24"
 				buttonText = ""
-				position = { x = 98 y = @sort_button_height }				pdx_tooltip = "EXPANSION_PLANNER_SORT_HABITABILITY"
+				position = { x = 98 y = @sort_button_height }
+				pdx_tooltip = "EXPANSION_PLANNER_SORT_HABITABILITY"
 				oversound = mouse_over
 			}
 			iconType = {
@@ -461,7 +474,8 @@ guiTypes = {
 				font = "cg_16b"
 				spriteType = "GFX_standard_button_190_24"
 				buttonText = "NAME"
-				position = { x = 136 y = 7 }				pdx_tooltip = "EXPANSION_PLANNER_SORT_NAME"
+				position = { x = 136 y = 7 }
+				pdx_tooltip = "EXPANSION_PLANNER_SORT_NAME"
 				#format = left
 				oversound = mouse_over
 			}
@@ -470,7 +484,8 @@ guiTypes = {
 				font = "cg_16b"
 				spriteType = "GFX_button_75_24"
 				buttonText = "FEATURES"
-				position = { x = 329 y = @sort_button_height }				pdx_tooltip = "EXPANSION_PLANNER_SORT_FEATURES"
+				position = { x = 329 y = @sort_button_height }
+				pdx_tooltip = "EXPANSION_PLANNER_SORT_FEATURES"
 				oversound = mouse_over
 			}
 			buttonType = {
@@ -478,7 +493,8 @@ guiTypes = {
 				font = "cg_16b"
 				spriteType = "GFX_button_75_24"
 				buttonText = "SIZE"
-				position = { x = 407 y = @sort_button_height }				pdx_tooltip = "EXPANSION_PLANNER_SORT_SIZE"
+				position = { x = 407 y = @sort_button_height }
+				pdx_tooltip = "EXPANSION_PLANNER_SORT_SIZE"
 				oversound = mouse_over
 			}
 			buttonType = {
@@ -486,7 +502,8 @@ guiTypes = {
 				font = "cg_16b"
 				spriteType = "GFX_button_75_24"
 				buttonText = "DISTANCE"
-				position = { x = 485 y = @sort_button_height }				pdx_tooltip = "EXPANSION_PLANNER_SORT_DISTANCE"
+				position = { x = 485 y = @sort_button_height }
+				pdx_tooltip = "EXPANSION_PLANNER_SORT_DISTANCE"
 				oversound = mouse_over
 			}
 			buttonType = {
@@ -499,7 +516,8 @@ guiTypes = {
 					min_width = 1920
 					spriteType = "GFX_standard_button_190_24"
 					position = { x = 563 y = 7 }
-				}				pdx_tooltip = "SORT_BY_DISTRICTS"
+				}
+				pdx_tooltip = "SORT_BY_DISTRICTS"
 				oversound = mouse_over
 			}
 			iconType = {
@@ -520,7 +538,8 @@ guiTypes = {
 					min_width = 1920
 					spriteType = "GFX_standard_button_190_24"
 					position = { x = 756 y = 7 }
-				}				pdx_tooltip = "SORT_BY_DISTRICTS"
+				}
+				pdx_tooltip = "SORT_BY_DISTRICTS"
 				oversound = mouse_over
 			}
 			iconType = {
@@ -541,7 +560,8 @@ guiTypes = {
 					min_width = 1920
 					spriteType = "GFX_standard_button_190_24"
 					position = { x = 949 y = 7 }
-				}				pdx_tooltip = "SORT_BY_DISTRICTS"
+				}
+				pdx_tooltip = "SORT_BY_DISTRICTS"
 				oversound = mouse_over
 			}
 			iconType = {
@@ -566,7 +586,8 @@ guiTypes = {
 					min_width = 2560
 					spriteType = "GFX_ui_button_350_24"
 				}
-				buttonText = "MODIFIERS"				pdx_tooltip = "EXPANSION_PLANNER_SORT_MODIFIERS"
+				buttonText = "MODIFIERS"
+				pdx_tooltip = "EXPANSION_PLANNER_SORT_MODIFIERS"
 			}
 			buttonType = {
 				name = "sort_status"
@@ -581,7 +602,8 @@ guiTypes = {
 				if_resolution = {
 					min_width = 2560
 					position = { x = 1495 y = @sort_button_height }
-				}				pdx_tooltip = "EXPANSION_PLANNER_SORT_STATUS"
+				}
+				pdx_tooltip = "EXPANSION_PLANNER_SORT_STATUS"
 			}
 			buttonType = {
 				name = "list_bg"

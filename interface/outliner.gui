@@ -13,14 +13,16 @@ guiTypes = {
 		buttonType = {
 			name = "outliner_toggle"
 			quadTextureSprite = "outliner_button"
-			position = { x = -4 y = -4 }			shortcut = "o"
+			position = { x = -4 y = -4 }
+			shortcut = "o"
 			clicksound = interface
 			oversound = mouse_over
 		}
 		buttonType = {
 			name = "observer_outliner_toggle"
 			quadTextureSprite = "observer_outliner_button"
-			position = { x = -4 y = 34 }			#shortcut = "o"
+			position = { x = -4 y = 34 }
+			#shortcut = "o"
 			clicksound = interface
 			oversound = mouse_over
 		}
@@ -79,7 +81,8 @@ guiTypes = {
 				position = { x = 13 y = 5 }
 				maxWidth = 150
 				maxHeight = 20
-				fixedSize = yes				format = left
+				fixedSize = yes
+				format = left
 			}
 			buttonType = {
 				name = "options"
@@ -99,7 +102,8 @@ guiTypes = {
 			}
 			smoothListBoxType = {
 				name = "list"
-				position = { x = 0 y = 40 }				priority = 100
+				position = { x = 0 y = 40 }
+				priority = 100
 				size = { x = 286 y = 0 }
 				borderSize = { x = 0 y = 0 }
 				scrollbartype = "standardlistbox_slider_thick"
@@ -128,7 +132,8 @@ guiTypes = {
 				position = { x = 13 y = 5 }
 				maxWidth = 150
 				maxHeight = 20
-				fixedSize = yes				format = left
+				fixedSize = yes
+				format = left
 			}
 			buttonType = {
 				name = "unobserve"
@@ -140,7 +145,8 @@ guiTypes = {
 			}
 			smoothListBoxType = {
 				name = "list"
-				position = { x = 2 y = 42 }				priority = 100
+				position = { x = 2 y = 42 }
+				priority = 100
 				size = { x = 286 y = 0 }
 				borderSize = { x = 0 y = 0 }
 				scrollbartype = "standardlistbox_slider_thick"
@@ -188,7 +194,8 @@ guiTypes = {
 			position = { x = 16 y = 3 }
 			maxWidth = 128
 			maxHeight = 20
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 			text_color_code = "E"
 			alwaysTransparent = yes
 		}
@@ -199,12 +206,14 @@ guiTypes = {
 			position = { x = 250 y = 5 }
 			maxWidth = 40
 			maxHeight = 20
-			fixedSize = yes			format = centre
+			fixedSize = yes
+			format = centre
 		}
 		smoothListBoxType = {
 			name = "list"
 			id = "list"
-			position = { x = 2 y = 36 }			priority = 100
+			position = { x = 2 y = 36 }
+			priority = 100
 			size = { x = 300 y = 0 }
 			borderSize = { x = 0 y = 0 }
 			scrollbartype = "standardlistbox_slider_thick"
@@ -257,7 +266,8 @@ guiTypes = {
 			position = { x = 36 y = 3 }
 			maxWidth = 200
 			maxHeight = 20
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 			text_color_code = "E"
 			alwaysTransparent = yes
 		}
@@ -268,12 +278,14 @@ guiTypes = {
 			position = { x = 250 y = 5 }
 			maxWidth = 40
 			maxHeight = 20
-			fixedSize = yes			format = centre
+			fixedSize = yes
+			format = centre
 		}
 		smoothListBoxType = {
 			name = "list"
 			id = "list"
-			position = { x = 2 y = 36 }			priority = 100
+			position = { x = 2 y = 36 }
+			priority = 100
 			size = { x = 300 y = 0 }
 			borderSize = { x = 0 y = 0 }
 			scrollbartype = "standardlistbox_slider_thick"
@@ -289,7 +301,8 @@ guiTypes = {
 		buttonType = {
 			name = "background"
 			quadTextureSprite = "GFX_ui_outliner_member_bg"
-			position = { x = -3 y = -5 }		}
+			position = { x = -3 y = -5 }
+		}
 		containerWindowType = {
 			name = "selected_overlay"
 			position = { x = 0 y = 0 }
@@ -315,7 +328,8 @@ guiTypes = {
 			position = { x = 42 y = 3 }
 			maxWidth = 240
 			maxHeight = 20
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 			text_color_code = "H"
 			alwaysTransparent = yes
 		}
@@ -349,7 +363,8 @@ guiTypes = {
 			position = { x = 67 y = 20 }
 			maxWidth = 180
 			maxHeight = 20
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 			alwaysTransparent = yes
 			text_color_code = "Y"
 		}
@@ -363,7 +378,8 @@ guiTypes = {
 		buttonType = {
 			name = "background"
 			quadTextureSprite = "GFX_ui_outliner_member_bg"
-			position = { x = -3 y = -5 }			clicksound = click_outliner
+			position = { x = -3 y = -5 }
+			clicksound = click_outliner
 			oversound =	no_sound
 		}
 		containerWindowType = {
@@ -404,7 +420,8 @@ guiTypes = {
 			name = "invasion"
 			position = { x = -100 y = 15 }
 			spriteType = "GFX_alliance_vote_status"
-			orientation = "UPPER_RIGHT"			frame = 3
+			orientation = "UPPER_RIGHT"
+			frame = 3
 			scale = 0.6
 		}
 		instantTextBoxType = {
@@ -425,7 +442,8 @@ guiTypes = {
 			position = { x = 40 y = 3 }
 			maxWidth = 130
 			maxHeight = 20
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 			text_color_code = "H"
 			#alwaysTransparent = yes
 		}
@@ -441,7 +459,8 @@ guiTypes = {
 	containerWindowType = {
 		name = "outliner_army_type_entry_window"
 		size = { width = 45 height = 16 }
-		position = { x = 0 y = 0 }		moveable = no
+		position = { x = 0 y = 0 }
+		moveable = no
 		iconType = {
 			name = "icon"
 			spriteType = "GFX_army_icons"
@@ -456,7 +475,8 @@ guiTypes = {
 			position = { x = 18 y = 3 }
 			maxWidth = 24
 			maxHeight = 20
-			fixedSize = yes			format = right
+			fixedSize = yes
+			format = right
 			text_color_code = "H"
 		}
 	}
@@ -503,7 +523,8 @@ guiTypes = {
 			position = { x = 40 y = 3 }
 			maxWidth = 130
 			maxHeight = 20
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 			#text_color_code = "E"
 			alwaysTransparent = yes
 		}
@@ -526,7 +547,8 @@ guiTypes = {
 			position = { x = 40 y = 20 }
 			maxWidth = 112
 			maxHeight = 20
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 			text_color_code = "H"
 			#alwaysTransparent = yes
 		}
@@ -600,15 +622,18 @@ guiTypes = {
 		iconType = {
 			name = "occupied"
 			position = { x = 21 y = 13 }
-			spriteType = "GFX_occupation_flag_big"		}
+			spriteType = "GFX_occupation_flag_big"
+		}
 		iconType = {
 			name = "blockaded"
 			position = { x = 0 y = 13 }
-			spriteType = "GFX_planet_blockade"		}
+			spriteType = "GFX_planet_blockade"
+		}
 		iconType = {
 			name = "invasion"
 			position = { x = 0 y = 13 }
-			spriteType = "GFX_planet_invasion"		}
+			spriteType = "GFX_planet_invasion"
+		}
 		containerWindowType = {
 			name = "planet_status_container"
 			size = { width = 45 height = 15 }
@@ -628,7 +653,8 @@ guiTypes = {
 			position = { x = 44 y = 3 }
 			maxWidth = 145
 			maxHeight = 20
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 			text_color_code = "E"
 			alwaysTransparent = yes
 		}
@@ -657,13 +683,15 @@ guiTypes = {
 			position = { x = 44 y = 20 }
 			maxWidth = 200
 			maxHeight = 20
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 			alwaysTransparent = yes
 		}
 		containerWindowType = {
 			name = "constructions"
 			size = { width = 100% height = 100% }
-			position = { x = 0 y = 0 }			moveable = no
+			position = { x = 0 y = 0 }
+			moveable = no
 			OverlappingElementsBoxType = {
 				name = "box"
 				position = { x = 40 y = 20 }
@@ -675,7 +703,8 @@ guiTypes = {
 		containerWindowType = {
 			name = "colonize"
 			size = { width = 100% height = 100% }
-			position = { x = 0 y = 0 }			moveable = no
+			position = { x = 0 y = 0 }
+			moveable = no
 			iconType = {
 				name = "icon"
 				position = { x = 44 y = 18 }
@@ -728,7 +757,8 @@ guiTypes = {
 		buttonType = {
 			name = "background"
 			quadTextureSprite = "GFX_ui_outliner_member_bg"
-			position = { x = 0 y = -5 }			clicksound = click_outliner
+			position = { x = 0 y = -5 }
+			clicksound = click_outliner
 			oversound = no_sound
 		}
 		containerWindowType = {
@@ -751,7 +781,8 @@ guiTypes = {
 			name = "leader_level"
 			position = { x = 5 y = 20 }
 			spriteType = "GFX_outliner_leader_level"
-			frame = 10		}
+			frame = 10
+		}
 		instantTextBoxType = {
 			name = "name"
 			font = "cg_16b"
@@ -759,7 +790,8 @@ guiTypes = {
 			position = { x = 40 y = 18 }
 			maxWidth = 240
 			maxHeight = 20
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 			text_color_code = "E"
 			alwaysTransparent = yes
 		}
@@ -776,7 +808,8 @@ guiTypes = {
 			position = { x = 40 y = 3 }
 			maxWidth = 130
 			maxHeight = 20
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 			text_color_code = "H"
 			alwaysTransparent = yes
 		}
@@ -803,7 +836,8 @@ guiTypes = {
 			name = "background"
 			quadTextureSprite = "GFX_ui_outliner_member_bg"
 			size = { x = 248 y = 49 }
-			position = { x = 0 y = -5 }		}
+			position = { x = 0 y = -5 }
+		}
 		containerWindowType = {
 			name = "selected_overlay"
 			position = { x = 0 y = 0 }
@@ -817,7 +851,8 @@ guiTypes = {
 		iconType = {
 			name = "alerticon"
 			spriteType = "GFX_alerticons"
-			position = { x = 4 y = 8 }		}
+			position = { x = 4 y = 8 }
+		}
 		instantTextBoxType = {
 			name = "name"
 			font = "cg_16b"
@@ -825,7 +860,8 @@ guiTypes = {
 			position = { x = 46 y = 14 }
 			maxWidth = 200
 			maxHeight = 20
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 			text_color_code = "g"
 			alwaysTransparent = yes
 		}
@@ -840,7 +876,8 @@ guiTypes = {
 			name = "background"
 			quadTextureSprite = "GFX_ui_outliner_member_bg"
 			size = { x = 248 y = 49 }
-			position = { x = 0 y = -5 }			clicksound = "click_outliner"
+			position = { x = 0 y = -5 }
+			clicksound = "click_outliner"
 		}
 		containerWindowType = {
 			name = "selected_overlay"
@@ -859,7 +896,8 @@ guiTypes = {
 			position = { x = 57 y = 4 }
 			maxWidth = 235
 			maxHeight = 20
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 			#text_color_code = "g"
 			alwaysTransparent = yes
 		}
@@ -875,7 +913,8 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "approval_label"
-			position = { x = 150 y = 23 }			font = "cg_16b"
+			position = { x = 150 y = 23 }
+			font = "cg_16b"
 			text = "APPROVAL_OF_FACTION"
 			maxWidth = 60
 			maxHeight = 30
@@ -888,7 +927,8 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "attraction_label"
-			position = { x = 88 y = 23 }			font = "cg_16b"
+			position = { x = 88 y = 23 }
+			font = "cg_16b"
 			text = "7"
 			maxWidth = 60
 			maxHeight = 30
@@ -914,7 +954,8 @@ guiTypes = {
 			position = { x = 0 y = 23 }
 			maxWidth = 32
 			maxHeight = 20
-			fixedSize = yes			format = center
+			fixedSize = yes
+			format = center
 			text_color_code = "E"
 			#alwaysTransparent = yes
 		}
@@ -929,7 +970,8 @@ guiTypes = {
 			name = "background"
 			quadTextureSprite = "GFX_ui_outliner_member_bg"
 			size = { x = 248 y = 19 }
-			position = { x = 0 y = -5 }		}
+			position = { x = 0 y = -5 }
+		}
 		containerWindowType = {
 			name = "selected_overlay"
 			position = { x = 0 y = 0 }
@@ -947,7 +989,8 @@ guiTypes = {
 			position = { x = 7 y = 2 }
 			maxWidth = 205
 			maxHeight = 20
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 			text_color_code = "H"
 			#alwaysTransparent = yes
 		}
@@ -1009,7 +1052,8 @@ guiTypes = {
 			position = { x = 13 y = 5 }
 			maxWidth = 150
 			maxHeight = 20
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 		}
 		buttonType = {
 			name = "close"
@@ -1096,7 +1140,8 @@ guiTypes = {
 			position = { x = 42 y = 8 }
 			maxWidth = 200
 			maxHeight = 20
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 			#text_color_code = "E"
 			alwaysTransparent = yes
 		}
@@ -1135,7 +1180,8 @@ guiTypes = {
 		buttonType = {
 			name = "background"
 			quadTextureSprite = "GFX_ui_outliner_member_bg"
-			position = { x = -3 y = -5 }		}
+			position = { x = -3 y = -5 }
+		}
 		containerWindowType = {
 			name = "selected_overlay"
 			position = { x = 0 y = 0 }
@@ -1158,7 +1204,8 @@ guiTypes = {
 			position = { x = 40 y = 3 }
 			maxWidth = 210
 			maxHeight = 20
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 			text_color_code = "H"
 			#alwaysTransparent = yes
 		}
@@ -1207,7 +1254,8 @@ guiTypes = {
 			position = { x = 44 y = 3 }
 			maxWidth = 115
 			maxHeight = 20
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 			text_color_code = "E"
 			alwaysTransparent = yes
 		}
@@ -1277,7 +1325,8 @@ guiTypes = {
 			position = { x = 46 y = 3 }
 			maxWidth = 140
 			maxHeight = @text_max_height
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 			text_color_code = "E"
 			alwaysTransparent = yes
 		}
@@ -1288,7 +1337,8 @@ guiTypes = {
 			position = { x = 46 y = @text_bottom_y }
 			maxWidth = 132
 			maxHeight = @text_max_height
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 			alwaysTransparent = yes
 		}
 		instantTextBoxType = {
@@ -1327,7 +1377,8 @@ guiTypes = {
 		containerWindowType = {
 			name = "constructions"
 			size = { width = 100% height = 100% }
-			position = { x = 0 y = 0 }			moveable = no
+			position = { x = 0 y = 0 }
+			moveable = no
 			OverlappingElementsBoxType = {
 				name = "box"
 				position = { x = 40 y = 20 }
@@ -1454,7 +1505,8 @@ guiTypes = {
 			position = { x = 35 y = 3 }
 			maxWidth = 185
 			maxHeight = 20
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 			text_color_code = "E"
 			alwaysTransparent = yes
 		}
@@ -1465,7 +1517,8 @@ guiTypes = {
 			position = { x = 35 y = 21 }
 			maxWidth = 105
 			maxHeight = 20
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 			text_color_code = "B"
 			alwaysTransparent = yes
 		}
@@ -1473,12 +1526,14 @@ guiTypes = {
 			name = "fighting"
 			position = { x = 0 y = 0 }
 			scale = 0.0
-			quadTextureSprite = "GFX_outliner_war_vs"		}
+			quadTextureSprite = "GFX_outliner_war_vs"
+		}
 		iconType = {
 			name = "war_status_icon"
 			position = { x = 16 y = 19 }
 			scale = 0.6
-			quadTextureSprite = "GFX_diplomacy_status_war"		}
+			quadTextureSprite = "GFX_diplomacy_status_war"
+		}
 		instantTextBoxType = {
 			name = "might"
 			font = "cg_16b"
@@ -1486,7 +1541,8 @@ guiTypes = {
 			position = { x = 145 y = 21 }
 			maxWidth = 72
 			maxHeight = 20
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 			text_color_code = "Y"
 			alwaysTransparent = yes
 		}
@@ -1497,7 +1553,8 @@ guiTypes = {
 			position = { x = 220 y = 21 }
 			maxWidth = 66
 			maxHeight = 20
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 			text_color_code = "Y"
 			alwaysTransparent = yes
 		}
@@ -1508,7 +1565,8 @@ guiTypes = {
 			position = { x = 220 y = 3 }
 			maxWidth = 66
 			maxHeight = 20
-			fixedSize = yes			format = left
+			fixedSize = yes
+			format = left
 			text_color_code = "Y"
 			alwaysTransparent = yes
 		}
@@ -1520,6 +1578,7 @@ guiTypes = {
 		moveable = no
 		iconType = {
 			name = "status"
-			spriteType = "GFX_outliner_status"		}
+			spriteType = "GFX_outliner_status"
+		}
 	}
 }

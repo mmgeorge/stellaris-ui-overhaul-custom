@@ -16,6 +16,16 @@ guiTypes = {
 		#	spriteType = "GFX_main_screen_bg"
 		#	position = { x = 5 y = 5 }
 		#}
+		# Ultrawide
+		if_resolution = {
+			min_width = 3440
+			movable = yes
+			animation_time = 0	
+			hide_position = { x = 0 y = 0 }
+			show_position = { x = 0 y = 0 }
+			orientation = center
+			origo = center
+		}
 		containerWindowType = {
 			name = "black_background_box_01"
 			size = { width = 100% height = 100% }
@@ -71,7 +81,8 @@ guiTypes = {
 		containerWindowType = {
 			name = "areas_window"
 			size = { width = 660 height = 800 }
-			position = { x = 7 y = 55 }			clipping = no
+			position = { x = 7 y = 55 }
+			clipping = no
 			gridBoxType = {
 				name = "grid"
 				slotSize = { width = 660 height = 200 }
@@ -92,7 +103,8 @@ guiTypes = {
 		containerWindowType = {
 			name = "select_window"
 			size = { width = 565 height = 455 }
-			position = { x = 680 y = 9 }			moveable = no
+			position = { x = 680 y = 9 }
+			moveable = no
 			containerWindowType = {
 				name = "reserached_tech_bg_box"
 				size = { width = 100% height = 125 }
@@ -171,7 +183,8 @@ guiTypes = {
 				min_height = 1440
 				size = { width = 565 height = 1271 }
 			}
-			position = { x = 680 y = 9 }			moveable = no
+			position = { x = 680 y = 9 }
+			moveable = no
 			containerWindowType = {
 				name = "reserached_tech_bg_box"
 				size = { width = 100% height = 100% }
@@ -322,7 +335,8 @@ guiTypes = {
 	containerWindowType = {
 		name = "technology_view_area_window"
 		size = { width = 660 height = 210 }
-		position = { x = 0 y = 0 }		moveable = no
+		position = { x = 0 y = 0 }
+		moveable = no
 		clipping = yes
 		# GFX_choose_tech_button
 		iconType = {
@@ -367,7 +381,8 @@ guiTypes = {
 			name = "leader_traits"
 			position = { x = 20 y = 45 }
 			size = { x = 270 y = 32 }
-			format = left		}
+			format = left
+		}
 		iconType = {
 			name = "modifier_icon"
 			quadTextureSprite = "GFX_modifier_unknown"
@@ -463,7 +478,8 @@ guiTypes = {
 				position = { x = 178 y = 84 }
 				size = { x = 411 y = 85 }
 				buttonText = "TECH_VIEW_RESEARCH_NEW_SELECT"
-				buttonFont = "malgun_goth_24"				clicksound = ui_click_research_tab
+				buttonFont = "malgun_goth_24"
+				clicksound = ui_click_research_tab
 			}
 		}
 		containerWindowType = {
@@ -479,7 +495,8 @@ guiTypes = {
 			iconType = {
 				name = "icon"
 				spriteType = "GFX_technology_unknown"
-				position = { x = 134 y = 109 }				alwaystransparent = yes
+				position = { x = 134 y = 109 }
+				alwaystransparent = yes
 			}
 			containerWindowType = {
 				name = "icon_frame_box"
@@ -561,7 +578,8 @@ guiTypes = {
 			smoothListBoxType = {
 				name = "unlocks"
 				position = { x = 196 y = 109 }
-				size = { x = 415 y = 54 }				borderSize = { x = 0 y = 0 }
+				size = { x = 415 y = 54 }
+				borderSize = { x = 0 y = 0 }
 				spacing = 1
 				priority = 0
 				scrollbartype = "standardlistbox_slider_thick_low"
@@ -570,7 +588,8 @@ guiTypes = {
 			iconType = {
 				name = "risk_icon"
 				spriteType = "GFX_failure_risk_icon"
-				position = { x = 160 y = 138 }			}
+				position = { x = 160 y = 138 }
+			}
 			buttonType = {
 				name = "cancel_research"
 				quadTextureSprite = "GFX_button_update"
@@ -660,7 +679,8 @@ guiTypes = {
 		smoothListBoxType = {
 			name = "unlocks"
 			position = { x = 80 y = 41 }
-			size = { x = 415 y = 54 }			borderSize = { x = 0 y = 0 }
+			size = { x = 415 y = 54 }
+			borderSize = { x = 0 y = 0 }
 			spacing = 1
 			scrollbartype = "standardlistbox_slider_thick_low"
 			alwaysTransparent = yes
@@ -675,16 +695,19 @@ guiTypes = {
 	containerWindowType = {
 		name = "technology_view_tech_researched_entry_window"
 		size = { width = 520 height = 90 }
-		position = { x = 0 y = 0 }		moveable = no
+		position = { x = 0 y = 0 }
+		moveable = no
 		clipping = no
 		iconType = {
 			name = "tech_option_bg"
 			spriteType = "GFX_tech_entry_physics_bg"
-			position = { x = 4 y = 5 }		}
+			position = { x = 4 y = 5 }
+		}
 		iconType = {
 			name = "icon"
 			spriteType = "GFX_technology_unknown"
-			position = { x = 8 y = 33 }		}
+			position = { x = 8 y = 33 }
+		}
 		containerWindowType = {
 			name = "icon_frame_box"
 			size = { width = 54 height = 54 }
@@ -731,7 +754,8 @@ guiTypes = {
 		smoothListBoxType = {
 			name = "unlocks"
 			position = { x = 70 y = 33 }
-			size = { x = 415 y = 54 }			borderSize = { x = 0 y = 0 }
+			size = { x = 415 y = 54 }
+			borderSize = { x = 0 y = 0 }
 			spacing = 1
 			scrollbartype = "standardlistbox_slider_thick_low"
 			alwaysTransparent = yes
@@ -912,12 +936,14 @@ guiTypes = {
 		iconType = {
 			name = "tech_option_bg"
 			spriteType = "GFX_tech_entry_physics_bg"
-			position = { x = 57 y = 79 }			alwaystransparent = yes
+			position = { x = 57 y = 79 }
+			alwaystransparent = yes
 		}
 		iconType = {
 			name = "icon"
 			spriteType = "GFX_technology_unknown"
-			position = { x = 61 y = 106 }			alwaystransparent = yes
+			position = { x = 61 y = 106 }
+			alwaystransparent = yes
 		}
 		containerWindowType = {
 			name = "icon_frame_box"
@@ -961,7 +987,8 @@ guiTypes = {
 		smoothListBoxType = {
 			name = "unlocks"
 			position = { x = 125 y = 108 }
-			size = { x = 415 y = 54 }			borderSize = { x = 0 y = 0 }
+			size = { x = 415 y = 54 }
+			borderSize = { x = 0 y = 0 }
 			spacing = 1
 			scrollbartype = "standardlistbox_slider_thick_low"
 			alwaysTransparent = yes

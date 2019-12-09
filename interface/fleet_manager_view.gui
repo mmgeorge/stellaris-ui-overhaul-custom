@@ -9,16 +9,26 @@ guiTypes = {
 	containerWindowType = {
 		name = "fleet_manager_view"
 		size = { width = 1196 height = 880 }
-		movable = yes
 		show_position = { x = 35 y = 40 }
 		if_resolution = {
 			min_width = 2560
 			show_position = { x = 55 y = 40 }
 		}
+
 		hide_position = { x = -1272 y = 40 }
 		animation_time = 200
 		animation_type = decelerated
 		clipping = no
+		# Ultrawide
+		if_resolution = {
+			min_width = 3440
+			movable = yes
+			animation_time = 0	
+			hide_position = { x = -120 y = 40 }
+			show_position = { x = -120 y = 40 }
+			orientation = center
+			origo = center
+		}
 		show_sound = "interface"
 		background = {
 			name = "bg"
@@ -446,6 +456,7 @@ guiTypes = {
 							quadTextureSprite = "GFX_interface_list_light"
 							clicksound = "outliner_click_tab"
 							pdx_tooltip = "HOME_BASE_FM"
+							shortcut = "i"
 						}
 						iconType = {
 							name = "type"
@@ -533,18 +544,21 @@ guiTypes = {
 							quadTextureSprite = "GFX_fleet_action_button_reinforce"
 							position = { x = 0 y = 0 }
 							buttonFont = "cg_16b"
+							shortcut = "f"
 						}
 						buttonType = {
 							name = "repair"
 							quadTextureSprite = "GFX_fleet_action_button_repair"
 							position = { x = 37 y = 0 }
 							buttonFont = "cg_16b"
+							shortcut = "r"
 						}
 						buttonType = {
 							name = "upgrade"
 							quadTextureSprite = "GFX_fleet_action_button_upgrade"
 							position = { x = 75 y = 0 }
 							buttonFont = "cg_16b"
+							shortcut = "g"
 						}
 						buttonType = {
 							name = "disband"

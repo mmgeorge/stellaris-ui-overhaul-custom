@@ -18,10 +18,10 @@ guiTypes = {
 		if_resolution = {
 			min_width = 2560
 			position = { x = 1910 y = 680 }
-			if_resolution = {
-				min_height = 1440
-				position = { x = 1910 y = 1005 }
-			}
+			#if_resolution = {
+			#	min_height = 1440
+			#	position = { x = 1910 y = 1005 }
+			#}
 		}
 	}
 	#required slots are for instance FTL, combat computer, science lab
@@ -43,10 +43,10 @@ guiTypes = {
 		if_resolution = {
 			min_width = 2560
 			position = { x = 2100 y = 404 }
-			if_resolution = {
-				min_height = 1440
-				position = { x = 2100 y = 584 }
-			}
+			#if_resolution = {
+			#	min_height = 1440
+			#	position = { x = 2100 y = 584 }
+			#}
 		}
 	}
 	positionType = {
@@ -79,13 +79,23 @@ guiTypes = {
 			min_width = 2560
 			show_position = { x = 55 y = 40 }
 			size = { width = 2170 height = 945 }
-			if_resolution = {
-				min_height = 1440
-				size = { width = 2170 height = 1280 }
-			}
+			#if_resolution = {
+			#	min_height = 1440
+			#	size = { width = 2170 height = 1280 }
+			#}
 		}
 		animation_time = 200
 		animation_type = decelerated
+		# Ultrawide
+		if_resolution = {
+			min_width = 3440
+			movable = yes
+			animation_time = 0	
+			hide_position = { x = 0 y = 0 }
+			show_position = { x = 0 y = 0 }
+			orientation = center
+			origo = center
+		}
 		background = {
 			name = "background"
 			quadTextureSprite = "GFX_tile_large_bg"
@@ -109,10 +119,10 @@ guiTypes = {
 			if_resolution = {
 				min_width = 2560
 				size = { width = 1912 height = 682 }
-				if_resolution = {
-					min_height = 1440
-					size = { width = 1912 height = 1007 }
-				}
+				#if_resolution = {
+				#	min_height = 1440
+				#	size = { width = 1912 height = 1007 }
+				#}
 			}
 			background = {
 				name = "districts_window_background"
@@ -174,16 +184,17 @@ guiTypes = {
 		}
 		smoothListBoxType = {
 			name = "designs_list"
-			position = { x = 15 y = 40 }			priority = 100
+			position = { x = 15 y = 40 }
+			priority = 100
 			size = { x = 210 y = 885 }
 			if_resolution = {
 				min_height = 1200
 				size = { x = 210 y = 1005 }
 			}
-			if_resolution = {
-				min_height = 1440
-				size = { x = 210 y = 1230 }
-			}
+			#if_resolution = {
+			#	min_height = 1440
+			#	size = { x = 210 y = 1230 }
+			#}
 			borderSize = { x = 0 y = 0 }
 			scrollbartype = "standardlistbox_slider_thick"
 			autohide_scrollbar = no
@@ -254,10 +265,10 @@ guiTypes = {
 			if_resolution = {
 				min_width = 2560
 				size = { x = 1775 y = 680 }
-				if_resolution = {
-					min_height = 1440
-					size = { x = 1775 y = 1005 }
-				}
+				#if_resolution = {
+				#	min_height = 1440
+				#	size = { x = 1775 y = 1005 }
+				#}
 			}
 			format = center
 		}
@@ -617,7 +628,8 @@ guiTypes = {
 			buttonType = {
 				name = "save"
 				quadTextureSprite = "GFX_standard_button_142_34_button"
-				position = { x = 0 y = 35 }				buttonFont = "cg_16b"
+				position = { x = 0 y = 35 }
+				buttonFont = "cg_16b"
 				buttonText = "SAVE"
 				clicksound = confirm_click
 				oversound = no_sound
@@ -657,7 +669,8 @@ guiTypes = {
 				name = "rename_box"
 				font = "cg_16b"
 				size = { x = 240 y = 20 }
-				text = "select name"				cursor = { x = -1 y = -3 }
+				text = "select name"
+				cursor = { x = -1 y = -3 }
 			}
 		}
 		iconType = {
@@ -730,7 +743,8 @@ guiTypes = {
 		}
 		listBoxType = {
 			name = "list"
-			position = { x = 33 y = 75 }			size = { x = 270 y = 380 }
+			position = { x = 33 y = 75 }
+			size = { x = 270 y = 380 }
 			borderSize = { x = 0 y = 0 }
 			scrollbartype = "standardlistbox_slider_thick"
 		}
@@ -1057,7 +1071,8 @@ guiTypes = {
 		buttonType = {
 			name = "background"
 			quadTextureSprite = "GFX_ship_designer_item_bg"
-			position = { x = 0 y = 0 }		}
+			position = { x = 0 y = 0 }
+		}
 		iconType = {
 			name = "icon_bg"
 			spriteType = "GFX_ship_part_background"
@@ -1410,7 +1425,8 @@ guiTypes = {
 			text = "CHOOSE_SECTION"
 			position = { x = 115 y = -70 }
 			maxWidth = 170
-			maxHeight = 20			#text_color_code = "E"
+			maxHeight = 20
+			#text_color_code = "E"
 			format = left
 			alwaystransparent = yes
 		}
@@ -1440,10 +1456,10 @@ guiTypes = {
 		if_resolution = {
 			min_width = 2560
 			size = { width = 450 height = 945 }
-			if_resolution = {
-				min_height = 1440
-				size = { width = 450 height = 1280 }
-			}
+			#if_resolution = {
+			#	min_height = 1440
+			#	size = { width = 450 height = 1280 }
+			#}
 		}
 		moveable = no
 		background = {
@@ -1483,27 +1499,31 @@ guiTypes = {
 		checkboxType = {
 			name = "filter_slot_size"
 			position = { x = 5 y = 120 }
-			quadTextureSprite = "GFX_checkbox_20_20_01"		}
+			quadTextureSprite = "GFX_checkbox_20_20_01"
+		}
 		instantTextBoxType = {
 			name = "filter_slot_size_label"
 			font = "cg_16b"
 			text = "SHIP_COMPONENTS_FILTER_SLOT_SIZE"
 			position = { x = 35 y = 120 }
 			maxWidth = 220
-			maxHeight = 30			format = left
+			maxHeight = 30
+			format = left
 			vertical_alignment = center
 		}
 		checkboxType = {
 			name = "filter_obsolete"
 			position = { x = 5 y = 90 }
-			quadTextureSprite = "GFX_checkbox_20_20_01"		}
+			quadTextureSprite = "GFX_checkbox_20_20_01"
+		}
 		instantTextBoxType = {
 			name = "filter_obsolete_label"
 			font = "cg_16b"
 			text = "SHIP_COMPONENTS_FILTER_OBSOLETE"
 			position = { x = 35 y = 90 }
 			maxWidth = 220
-			maxHeight = 30			format = left
+			maxHeight = 30
+			format = left
 			vertical_alignment = center
 		}
 		smoothListBoxType = {
@@ -1517,10 +1537,10 @@ guiTypes = {
 			if_resolution = {
 				min_width = 2560
 				size = { x = 425 y = 794 }
-				if_resolution = {
-					min_height = 1440
-					size = { x = 425 y = 1129 }
-				}
+				#if_resolution = {
+				#	min_height = 1440
+				#	size = { x = 425 y = 1129 }
+				#}
 			}
 			scrollbartype = "standardlistbox_slider_thick"
 		}

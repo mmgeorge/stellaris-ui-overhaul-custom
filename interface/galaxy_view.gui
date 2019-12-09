@@ -9,12 +9,12 @@ guiTypes = {
 		}
 		if_resolution = {
 			min_height = 1440
-			size = { width = 1357 height = 1300 }
+			size = { width = 1357 height = 1200 }
 		}
-		if_resolution = {
-			min_width = 2560
-			show_position = { x = 55 y = 40 }
-		}
+		#if_resolution = {
+		#	min_width = 2560
+		#	show_position = { x = 55 y = 40 }
+		#}
 		hide_position = { x = -1357 y = 40 }
 		animation_time = 200
 		animation_type = decelerated
@@ -27,14 +27,24 @@ guiTypes = {
 				spriteType = "GFX_tile_large_bg"
 			}
 		}
+		# Ultrawide
+		if_resolution = {
+			min_width = 3440
+			movable = yes
+			animation_time = 0	
+			hide_position = { x = 0 y = 0 }
+			show_position = { x = 0 y = 0 }
+			orientation = center
+			origo = center
+		}
 		iconType = {
 			name = "hex_bg"
 			spriteType = "GFX_hex_bg"
 			position = { x = 0 y = -12 }
-			if_resolution = {
-				min_width = 2560
-				position = { x = -10 y = -12 }
-			}
+			#if_resolution = {
+			#		min_width = 2560
+			#		position = { x = -10 y = -12 }
+			#	}
 			alwaysTransparent = yes
 		}
 		iconType = {
@@ -46,10 +56,10 @@ guiTypes = {
 			name = "header"
 			font = "malgun_goth_24"
 			position = { x = 35 y = 5 }
-			if_resolution = {
-				min_width = 2560
-				position = { x = 25 y = 5 }
-			}
+			#if_resolution = {
+			#	min_width = 2560
+			#	position = { x = 25 y = 5 }
+			#}
 			text = "topbar_button_contacts_name"
 			format = left
 		}
@@ -162,7 +172,8 @@ guiTypes = {
 				buttonType = {
 					name = "selected_empire_flag"
 					quadTextureSprite = "GFX_empire_flag_64"
-					position = { x = 33 y = 383 }					oversound = no_sound
+					position = { x = 33 y = 383 }
+					oversound = no_sound
 				}
 				containerWindowType = {
 					name = "diplo_stats"
@@ -499,7 +510,7 @@ guiTypes = {
 				}
 				if_resolution = {
 					min_height = 1440
-					size = { width = 926 height = 1195 }
+					size = { width = 926 height = 1095 }
 				}
 				background = {
 					name = "empires_window_bg"
@@ -515,7 +526,7 @@ guiTypes = {
 					}
 					if_resolution = {
 						min_height = 1440
-						size = { x = 900 y = 1185 }
+						size = { x = 900 y = 1085 }
 					}
 					scrollbarType = "standardlistbox_slider_thick"
 					borderSize = { x = 0 y = 0 }

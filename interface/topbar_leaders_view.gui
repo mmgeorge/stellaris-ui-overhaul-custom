@@ -8,16 +8,26 @@ guiTypes = {
 			min_height = 1200
 			size = { width = 1534 height = 1060 }
 		}
-		if_resolution = {
-			min_height = 1440
-			size = { width = 1534 height = 1300 }
-		}
+		#if_resolution = {
+		#	min_height = 1440
+		#	size = { width = 1534 height = 1300 }
+		#}
 		if_resolution = {
 			min_width = 2560
 			show_position = { x = 55 y = 40 }
 		}
 		animation_time = 200
 		animation_type = decelerated
+		# Ultrawide
+		if_resolution = {
+			min_width = 3440
+			movable = yes
+			animation_time = 0	
+			hide_position = { x = 0 y = 0 }
+			show_position = { x = 0 y = 0 }
+			orientation = center
+			origo = center
+		}
 		containerWindowType = {
 			name = "leaders_view_background_box"
 			size = { width = 100% height = 100% }
@@ -188,10 +198,10 @@ guiTypes = {
 				min_height = 1200
 				position = { x = 1037 y = 738 }
 			}
-			if_resolution = {
-				min_height = 1440
-				position = { x = 1037 y = 978 }
-			}
+			#if_resolution = {
+			#	min_height = 1440
+			#	position = { x = 1037 y = 978 }
+			#}
 			size = { width = 290 height = 30 }
 			iconType = {
 				name = "hex_bg"
@@ -225,10 +235,10 @@ guiTypes = {
 				min_height = 1200
 				position = { x = 1359 y = 735 }
 			}
-			if_resolution = {
-				min_height = 1440
-				position = { x = 1359 y = 975 }
-			}
+			#if_resolution = {
+			#	min_height = 1440
+			#	position = { x = 1359 y = 975 }
+			#}
 			buttonFont = "cg_16b"
 			buttonText = "RECRUIT"
 			oversound = mouse_over
@@ -264,10 +274,10 @@ guiTypes = {
 				min_height = 1200
 				size = { width = @frame_width height = @frame_height_1200 }
 			}
-			if_resolution = {
-				min_height = 1440
-				size = { width = @frame_width height = @frame_height_1440 }
-			}
+			#if_resolution = {
+			#	min_height = 1440
+			#	size = { width = @frame_width height = @frame_height_1440 }
+			#}
 			background = {
 				name = "leader_frame1"
 				spriteType = "GFX_tiles_frame"
@@ -281,10 +291,10 @@ guiTypes = {
 				min_height = 1200
 				size = { x = @lists_width y = @lists_height_1200 }
 			}
-			if_resolution = {
-				min_height = 1440
-				size = { x = @lists_width y = @lists_height_1440 }
-			}
+			#if_resolution = {
+			#	min_height = 1440
+			#	size = { x = @lists_width y = @lists_height_1440 }
+			#}
 			scrollbartype = "standardlistbox_slider_thick"
 			offset = { x = -13 y = 0 }
 			spacing = -5
@@ -299,10 +309,10 @@ guiTypes = {
 				min_height = 1200
 				size = { width = @frame_width height = @frame_height_1200 }
 			}
-			if_resolution = {
-				min_height = 1440
-				size = { width = @frame_width height = @frame_height_1440 }
-			}
+			#if_resolution = {
+			#	min_height = 1440
+			#	size = { width = @frame_width height = @frame_height_1440 }
+			#}
 			background = {
 				name = "leader_frame2"
 				spriteType = "GFX_tiles_frame"
@@ -316,10 +326,10 @@ guiTypes = {
 				min_height = 1200
 				size = { x = @lists_width y = @lists_height_1200 }
 			}
-			if_resolution = {
-				min_height = 1440
-				size = { x = @lists_width y = @lists_height_1440 }
-			}
+			#if_resolution = {
+			#	min_height = 1440
+			#	size = { x = @lists_width y = @lists_height_1440 }
+			#}
 			scrollbartype = "standardlistbox_slider_thick"
 			offset = { x = -13 y = 0 }
 			spacing = -5
@@ -334,10 +344,10 @@ guiTypes = {
 				min_height = 1200
 				size = { width = @frame_width height = 630 }
 			}
-			if_resolution = {
-				min_height = 1440
-				size = { width = @frame_width height = 860 }
-			}
+			#if_resolution = {
+			#	min_height = 1440
+			#	size = { width = @frame_width height = 860 }
+			#}
 			background = {
 				name = "leader_frame3"
 				spriteType = "GFX_tiles_frame"
@@ -351,10 +361,10 @@ guiTypes = {
 				min_height = 1200
 				size = { x = @lists_width y = 628 }
 			}
-			if_resolution = {
-				min_height = 1440
-				size = { x = @lists_width y = 858 }
-			}
+			#if_resolution = {
+			#	min_height = 1440
+			#	size = { x = @lists_width y = 858 }
+			#}
 			scrollbartype = "standardlistbox_slider_thick"
 			offset = { x = -13 y = 0 }
 			spacing = -5
@@ -369,10 +379,10 @@ guiTypes = {
 				min_height = 1200
 				position = { x = 1028 y = 790 }
 			}
-			if_resolution = {
-				min_height = 1440
-				position = { x = 1028 y = 1030 }
-			}
+			#if_resolution = {
+			#	min_height = 1440
+			#	position = { x = 1028 y = 1030 }
+			#}
 			background = {
 				name = "leader_frame4"
 				spriteType = "GFX_tiles_frame"
@@ -386,10 +396,10 @@ guiTypes = {
 				min_height = 1200
 				position = { x = 1029 y = 791 }
 			}
-			if_resolution = {
-				min_height = 1440
-				position = { x = 1029 y = 1031 }
-			}
+			#if_resolution = {
+			#	min_height = 1440
+			#	position = { x = 1029 y = 1031 }
+			#}
 			scrollbartype = "standardlistbox_slider_thick"
 			offset = { x = -13 y = 0 }
 			spacing = -5
@@ -420,7 +430,8 @@ guiTypes = {
 	# Leader entry
 	containerWindowType = {
 		name = "planet_list_leaders_entry"
-		size = { width = 475 height = 90 }		clipping = yes
+		size = { width = 475 height = 90 }
+		clipping = yes
 		background = {
 			name = "planet_list_leaders_entry_background"
 			quadTextureSprite = "GFX_start_screen_bg"

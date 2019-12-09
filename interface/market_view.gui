@@ -11,6 +11,16 @@ guiTypes = {
 		}
 		animation_time = 200
 		animation_type = decelerated
+		# Ultrawide
+		if_resolution = {
+			min_width = 3440
+			movable = yes
+			animation_time = 0	
+			hide_position = { x = 0 y = 0 }
+			show_position = { x = 0 y = 0 }
+			orientation = center
+			origo = center
+		}
 		containerWindowType = {
 			name = "galaxy_view_background_box"
 			size = { width = 950 height = 900 }
@@ -109,7 +119,8 @@ guiTypes = {
 		containerWindowType = {
 			name = "market"
 			size = { width = 900 height = 685 }
-			moveable = no			position = { x = 0 y = 0 }
+			moveable = no
+			position = { x = 0 y = 0 }
 			containerWindowType = {
 				name = "trade_fee_box"
 				size = { width = 219 height = 36 }
@@ -297,7 +308,8 @@ guiTypes = {
 				maxWidth = 410
 				maxHeight = 50
 				fixedSize = yes
-				format = center			}
+				format = center
+			}
 			iconType = {
 				name = "select_resource_hex_bg"
 				spriteType = "GFX_hex_center_bg"
@@ -425,7 +437,8 @@ guiTypes = {
 					text = "AUTOMATIC_TRADES"
 					maxWidth = 280
 					maxHeight = 50
-					fixedSize = yes				}
+					fixedSize = yes
+				}
 				containerWindowType = {
 					name = "trades"
 					size = { width = 300 height = 610 }
@@ -483,7 +496,8 @@ guiTypes = {
 		containerWindowType = {
 			name = "slave_market"
 			size = { width = 900 height = 985 }
-			moveable = no			position = { x = 0 y = 0 }
+			moveable = no
+			position = { x = 0 y = 0 }
 			containerWindowType = {
 				name = "left_box"
 				size = { width = 500 height = 820 }
@@ -496,12 +510,14 @@ guiTypes = {
 					buttonFont = "cg_16b"
 					text = "NAME"
 					font = "cg_16b"
-					pdx_tooltip = "SORT_BY_NAME"				}
+					pdx_tooltip = "SORT_BY_NAME"
+				}
 				buttonType = {
 					name = "sort_habitability"
 					position = { x = 152 y = @sortButtonY }
 					font = "cg_16b"
-					spriteType = "GFX_button_35_24"					pdx_tooltip = "EXPANSION_PLANNER_SORT_HABITABILITY"
+					spriteType = "GFX_button_35_24"
+					pdx_tooltip = "EXPANSION_PLANNER_SORT_HABITABILITY"
 					oversound = mouse_over
 				}
 				iconType = {
@@ -525,7 +541,8 @@ guiTypes = {
 					position = { x = 391 y = @sortButtonY }
 					spriteType = "GFX_button_75_24"
 					buttonFont = "cg_16b"
-					text = "COST"					pdx_tooltip = "SORT_BY_COST"
+					text = "COST"
+					pdx_tooltip = "SORT_BY_COST"
 					oversound = mouse_over
 				}
 				buttonType = {
@@ -557,7 +574,8 @@ guiTypes = {
 						text = "NO_SLAVES_FOR_SALE"
 						maxWidth = 465
 						maxHeight = 50
-						fixedSize = yes					}
+						fixedSize = yes
+					}
 					gridBoxType = {
 						name = "slave_list"
 						position = { x = 0 y = 0 }
@@ -641,7 +659,8 @@ guiTypes = {
 		iconType = {
 			name = "disabled_bg"
 			spriteType = "GFX_striped"
-			position = { x = 0 y = 22 }			orientation = center_up
+			position = { x = 0 y = 22 }
+			orientation = center_up
 			centerPosition = yes
 			alwaysTransparent = yes
 		}
@@ -701,7 +720,8 @@ guiTypes = {
 		buttonType = {
 			name = "trade_entry"
 			font = "cg_16b"
-			spriteType = "GFX_galactic_object_button"		}
+			spriteType = "GFX_galactic_object_button"
+		}
 		instantTextBoxType = {
 			name = "trade_type"
 			font = "cg_16b"
@@ -774,7 +794,8 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "species"
-			position = { x = 60 y = 15 }			font = "cg_16b"
+			position = { x = 60 y = 15 }
+			font = "cg_16b"
 			maxWidth = 100
 			maxHeight = 20
 			fixedSize = yes
@@ -831,7 +852,8 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "name"
-				position = { x = 45 y = 12 }				font = "cg_16b"
+				position = { x = 45 y = 12 }
+				font = "cg_16b"
 				maxWidth = 160
 				maxHeight = 16
 				fixedSize = yes
@@ -848,7 +870,8 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "habitability"
-				position = { x = 45 y = 29 }				font = "cg_16b"
+				position = { x = 45 y = 29 }
+				font = "cg_16b"
 				maxWidth = 37
 				maxHeight = 16
 			}

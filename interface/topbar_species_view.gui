@@ -11,7 +11,7 @@ guiTypes = {
 		}
 		if_resolution = {
 			min_height = 1440
-			size = { width = 1374 height = 1300 }
+			size = { width = 1374 height = 1200 }
 		}
 		if_resolution = {
 			min_width = 2560
@@ -19,6 +19,16 @@ guiTypes = {
 		}
 		animation_time = 200
 		animation_type = decelerated
+		# Ultrawide
+		if_resolution = {
+			min_width = 3440
+			movable = yes
+			animation_time = 0	
+			hide_position = { x = 0 y = 0 }
+			show_position = { x = 0 y = 0 }
+			orientation = center
+			origo = center
+		}
 		clipping = yes
 		containerWindowType = {
 			name = "species_view_background_box"
@@ -194,17 +204,20 @@ guiTypes = {
 				font = "cg_16b"
 				text = "SET_RIGHTS"
 				spriteType = "GFX_standard_button_142_34_button"
-				position = { x = 250 y = 395 }			}
+				position = { x = 250 y = 395 }
+			}
 			buttonType = {
 				name = "apply_template_or_uplift_button"
 				font = "cg_16b"
 				spriteType = "GFX_standard_button_142_34_button"
-				position = { x = 250 y = 434 }			}
+				position = { x = 250 y = 434 }
+			}
 			buttonType = {
 				name = "modify_button"
 				font = "cg_16b"
 				spriteType = "GFX_standard_button_142_34_button"
-				position = { x = 13 y = 434 }			}
+				position = { x = 13 y = 434 }
+			}
 			# traits black background
 			containerWindowType = {
 				name = "options_background"
@@ -268,20 +281,23 @@ guiTypes = {
 				font = "cg_16b"
 				spriteType = "GFX_standard_button_200_24"
 				buttonText = "SPECIES_VIEW_SPECIES"
-				position = { x = 413 y = @sort_button_height }				pdx_tooltip = "SPECIES_VIEW_SORT_NAME"
+				position = { x = 413 y = @sort_button_height }
+				pdx_tooltip = "SPECIES_VIEW_SORT_NAME"
 			}
 			buttonType = {
 				name = "type_button"
 				font = "cg_16b"
 				spriteType = "GFX_button_164_24"
 				buttonText = "SPECIES_VIEW_TYPE"
-				position = { x = 616 y = @sort_button_height2 }				pdx_tooltip = "SPECIES_VIEW_SORT_TYPE"
+				position = { x = 616 y = @sort_button_height2 }
+				pdx_tooltip = "SPECIES_VIEW_SORT_TYPE"
 			}
 			buttonType = {
 				name = "population_button"
 				font = "cg_16b"
 				spriteType = "GFX_button_35_24"
-				position = { x = 783 y = @sort_button_height2 }				pdx_tooltip = "SPECIES_VIEW_SORT_POPULATION"
+				position = { x = 783 y = @sort_button_height2 }
+				pdx_tooltip = "SPECIES_VIEW_SORT_POPULATION"
 			}
 			iconType = {
 				name = "pop_opinion_icon"
@@ -294,14 +310,16 @@ guiTypes = {
 				font = "cg_16b"
 				spriteType = "GFX_ui_button_350_24"
 				buttonText = "SPECIES_VIEW_TRAITS"
-				position = { x = 821 y = @sort_button_height2 }				pdx_tooltip = "SPECIES_VIEW_SORT_TRAITS"
+				position = { x = 821 y = @sort_button_height2 }
+				pdx_tooltip = "SPECIES_VIEW_SORT_TRAITS"
 			}
 			buttonType = {
 				name = "rights_button"
 				font = "cg_16b"
 				spriteType = "GFX_button_150_24"
 				buttonText = "SPECIES_VIEW_RIGHTS"
-				position = { x = 1175 y = @sort_button_height2 }				pdx_tooltip = "SPECIES_VIEW_SORT_RIGHTS"
+				position = { x = 1175 y = @sort_button_height2 }
+				pdx_tooltip = "SPECIES_VIEW_SORT_RIGHTS"
 			}
 			containerWindowType = {
 				name = "species_window"
@@ -313,7 +331,7 @@ guiTypes = {
 				}
 				if_resolution = {
 					min_height = 1440
-					size = { width = 940 height = 1192 }
+					size = { width = 940 height = 1092 }
 				}
 				background = {
 					name = "species_window_bg"
@@ -330,7 +348,7 @@ guiTypes = {
 					}
 					if_resolution = {
 						min_height = 1440
-						size = { x = 920 y = 1183 }
+						size = { x = 920 y = 1083 }
 					}
 					scrollbarType = "standardlistbox_slider_thick"
 					offset = { x = 0 y = 0 }
@@ -576,7 +594,8 @@ guiTypes = {
 				size = { x = 550 y = 757 }
 				spacing = 1
 				scrollbartype = "standardlistbox_slider_thick"
-				borderSize = { x = 0 y = 0 }			}
+				borderSize = { x = 0 y = 0 }
+			}
 		}
 	}
 	containerWindowType = {
