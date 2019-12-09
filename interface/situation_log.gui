@@ -24,8 +24,8 @@ guiTypes = {
 			min_width = 3440
 			movable = yes
 			animation_time = 0	
-			hide_position = { x = 0 y = -100 }
-			show_position = { x = 0 y = -100 }
+			hide_position = { x = 0 y = -150 }
+			show_position = { x = 0 y = -150 }
 			orientation = center
 			origo = center
 		}

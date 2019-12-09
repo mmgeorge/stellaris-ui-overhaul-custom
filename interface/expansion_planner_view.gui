@@ -358,7 +358,7 @@ guiTypes = {
 			hide_position = { x = -1607 y = 40 }
 			if_resolution = {
 				min_height = 1440
-				size = { width = 1607 height = 1300 }
+				size = { width = 1607 height = 1200 }
 			}
 		}
 		animation_time = 200
@@ -630,7 +630,7 @@ guiTypes = {
 					size = { x = 1585 y = 801 }
 					if_resolution = {
 						min_height = 1440
-						size = { x = 1585 y = 1156 }
+						size = { x = 1585 y = 1056 }
 					}
 				}
 				position = { x = 11 y = 50 }
@@ -660,7 +660,7 @@ guiTypes = {
 					size = { x = @TARGET_W_2560 y = 794 }
 					if_resolution = {
 						min_height = 1440
-						size = { x = @TARGET_W_2560 y = 1149 }
+						size = { x = @TARGET_W_2560 y = 1049 }
 					}
 				}
 				position = { x = 14 y = 53 }

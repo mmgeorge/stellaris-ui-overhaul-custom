@@ -14,7 +14,7 @@
 		# Used for planets
 		ENTITY_SPRITE_SYSTEM_VIEW_CAM_DIR = 	{ -1.0 -0.5 0.3 }
 		ENTITY_SPRITE_SYSTEM_VIEW_CAM_LOOK_AT = { 0 0 0 }
-		ENTITY_SPRITE_SYSTEM_VIEW_ZOOM_SCALE = 1.6
+		ENTITY_SPRITE_SYSTEM_VIEW_ZOOM_SCALE = 5.0 #1.6
 
 		# Used for planets in the species customization menus
 		ENTITY_SPRITE_CUSTOMIZE_SPECIES_VIEW_CAM_DIR = 	{ -1.0 -0.5 0.3 }
@@ -27,12 +27,12 @@
 		ENTITY_SPRITE_FRONTEND_BG_ZOOM_SCALE = 10.0
 
 		GALAXY_SHOW_FLEETS_ZOOM 		= 2300 # Camera zoom interval to show fleet icons
-		GALAXY_SHOW_STARNAME_ZOOM 		= 800 # Camera zoom interval to show star name
+		GALAXY_SHOW_STARNAME_ZOOM 		= 1300 # Camera zoom interval to show star name
 
 		SHOW_FLEETS_ZOOM 			= 300 # Show fleet icons instead of ship icons above this height
 		HIDE_ORBITS_ZOOM 			= 0
 
-		ZOOM_STEPS_GALAXY 			  = { 100 200 400 600 900 1500 3000 } 	# Galaxy zoom steps
+		ZOOM_STEPS_GALAXY 			  = { 100 200 400 600 1000 1500 3000 } 	# Galaxy zoom steps
 		# ZOOM_STEPS_SYSTEM_PERCENTAGES = { 0.01 0.05 0.25 0.5 1.0 1.5 3.0 } # System zoom steps in percent relative to the system size
 		ZOOM_STEPS_SYSTEM_PERCENTAGES = { 0.025 0.1 0.25 0.5 1.0 1.5 3.0 } # System zoom steps in percent relative to the system size
 		ZOOM_STEPS_SHOW_FLEET_HEALTH_BARS 		= { 3 4 5 6 } # on which zoom steps per-fleet health bars should be shown
@@ -47,7 +47,7 @@
 
 
 
-		BORDER_NAMES_FADEOUT_ZOOM	= 600
+		BORDER_NAMES_FADEOUT_ZOOM	= 900
 		BORDER_NAMES_FADEOUT_SPEED	= 4.0
 		BORDER_FLAG_FADEOUT_ZOOM	= 600
 		BORDER_FLAG_FADEOUT_SPEED	= 4.0
@@ -154,7 +154,7 @@
 		
 		BORDER_VISIBILITY_THRESHOLD = 0.05
 		
-		STAR_PIN_CIRCLE_RADIUS				= 2.0	# The lines that go from solar systems down to the 0-plane. This is the radius of that circle
+		STAR_PIN_CIRCLE_RADIUS				= 3.0	# The lines that go from solar systems down to the 0-plane. This is the radius of that circle
 		STAR_PIN_CIRCLE_NUM_POINTS			= 6	# how many points in the circle on the 0-plane
 		STAR_PIN_ENABLE_NEUTRAL				= yes # Should the game draw pins for stars that are not within any borders?
 		STAR_PIN_NEUTRAL_COLOR				= { 0.5 0.5 0.5 0.5 }	# The color for pins that are not inside any borders
@@ -164,8 +164,8 @@
 		MAPNAME_BORDER_MIN_SIZE				= 100
 		MAPNAME_BORDER_OFFSET_MUL			= 0.75
 		MAPNAME_BORDER_OFFSET_ADD			= 4.0
-		MAPNAME_NEBULA_SCALE				= 0.8
-		MAPNAME_SECTOR_SCALE				= 3
+		MAPNAME_NEBULA_SCALE				= 1.6
+		MAPNAME_SECTOR_SCALE				= 7.5
 
 		NULL_ENTITY	= "test_object_entity"
 		NULL_INSTANT_PROJECTILE = "default_instant_projectile"
@@ -307,8 +307,8 @@
 		MAX_WARGOAL_ITEMS				= 3
 		FLEET_SIZE						= 50	# Fleets of this size of above is displayed with the special fleet overlay
 	
-		TOOLTIP_TIME 					= 0.05
-		TOOLTIP_DELAYED_TIME 			= 0.8
+		TOOLTIP_TIME 					= 0.0
+		TOOLTIP_DELAYED_TIME 			= 0.0
 		TOOLTIP_POSITION_OFFSET 		= { 21 24 }
 		TOOLTIP_POSITION_OFFSET_STAR 	= { 6.4 0 }
 
@@ -330,7 +330,7 @@
 		PLANETVIEW_ORBITAL_YELLOW_HEALTH 		= 75 # How high percentage health before orbital health bar turns yellow in planet view.
 		
 		DEFAULT_CITY_POP_LEVEL					= 4 # Shown in empire designer
-		POPS_TO_SHOW_CITY_LEVEL 				= { 1 20 60 100 200 } # Decides how many pops are required to show the next level of city-infrastructure in city_frame
+		POPS_TO_SHOW_CITY_LEVEL 				= { 5 20 60 100 200 } # Decides how many pops are required to show the next level of city-infrastructure in city_frame
 
 		TRADE_VIEW_DEFAULT_CREDIT_CHANGE		= 1		# Default value
 		TRADE_VIEW_SMALL_CREDIT_CHANGE			= 10	# Decides how much value is changed while holding control when increasing/decreasing credit in trade
@@ -427,7 +427,7 @@
 
 		POP_ENTRY_GROUPING_THRESHOLD = 8 # the minimum amount of pops in the planet view jobs ui required before we start grouping them together
 		EXPANSION_VIEW_NUM_DISTRICTS = 3
-		DEFICIT_MONTH_LEFT_ALERT = 12 #Show alert when less months left
+		DEFICIT_MONTH_LEFT_ALERT = 6 #Show alert when less months left
 
 		NUM_DISTRICT_BOXES_TO_SHOW = 15 # How many district boxes will be shown before we show " 12/20" instead
 		NUM_RARE_DEPOSITS_TO_SHOW = 4 # How many rare deposits will be shown before we switch the gridbox to a summary icon and "x5" instead
