@@ -129,6 +129,7 @@ guiTypes = {
 				orientation = center_up
 				pdx_tooltip = "RENAME_SYSTEM_TOOLTIP"
 				oversound = no_sound
+				shortCut ="shift+e"
 			}
 			iconType = {
 				name = "environmental_effects_icon"

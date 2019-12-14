@@ -95,7 +95,7 @@ guiTypes = {
 				show_animation_type = decelerated
 				hide_animation_type = accelerated
 				animation_time = 200
-				size = { width = 600 height = 350 }
+				size = { width = 600 height = 650 }
 				if_resolution = {
 					min_height = 1440
 					size = { width = 600 height = 1000 }
@@ -144,7 +144,7 @@ guiTypes = {
 				show_animation_type = decelerated
 				hide_animation_type = accelerated
 				animation_time = 200
-				size = { width = 600 height = 350 }
+				size = { width = 600 height = 650 }
 				if_resolution = {
 					min_height = 1440
 					size = { width = 600 height = 1000 }
@@ -207,12 +207,12 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "name"
-			position = { x = 8 y = 0 }
+			position = { x = 0 y = 0 }
 			alwaystransparent = yes
 			font = "cg_16b"
 			maxWidth = 450
 			maxHeight = 30
-			format = left
+			format = center
 			vertical_alignment = center
 		}
 	}
