@@ -25,7 +25,7 @@ event = {
 			random_list = {
 
 				### Prethoryn Scourge (Swarm)
-				10 = { 
+				20 = { 
 					country_event = { id = crisis.10 days = 200 random = 800 }
 					set_global_flag = galactic_crisis_happened
 				}
