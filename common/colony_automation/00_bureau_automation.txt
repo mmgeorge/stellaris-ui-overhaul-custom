@@ -1,0 +1,161 @@
+
+automate_bureau_planet = {
+	available = {
+		has_designation = col_bureau
+		owner = {
+			NOR = {
+				has_authority = auth_machine_intelligence
+				has_authority = auth_hive_mind
+			}
+		}
+		free_jobs < 3
+	}
+
+	prio_districts = {
+		district_city
+	}
+
+	buildings = {
+		1 = {
+			building = building_capital
+			available = {
+				always = yes
+			}
+		}
+
+		2 = {
+			building = building_bureaucratic_1
+			available = {
+				owner = {
+					bureaucracy_upkeep_affordable = yes
+				}
+			}
+		}
+
+		3 = {
+			building = building_bureaucratic_1
+			available = {
+				owner = {
+					bureaucracy_upkeep_affordable = yes
+				}
+			}
+		}
+
+		4 = {
+			building = building_bureaucratic_1
+			available = {
+				owner = {
+					bureaucracy_upkeep_affordable = yes
+				}
+			}
+		}
+
+		5 = {
+			building = building_bureaucratic_1
+			available = {
+				owner = {
+					bureaucracy_upkeep_affordable = yes
+				}
+			}
+		}
+
+		6 = {
+			building = building_bureaucratic_1
+			available = {
+				owner = {
+					bureaucracy_upkeep_affordable = yes
+				}
+			}
+		}
+
+		7 = {
+			building = building_bureaucratic_1
+			available = {
+				owner = {
+					bureaucracy_upkeep_affordable = yes
+				}
+			}
+		}
+
+		8 = {
+			building = building_bureaucratic_1
+			available = {
+				owner = {
+					bureaucracy_upkeep_affordable = yes
+				}
+			}
+		}
+
+		9 = {
+			building = building_bureaucratic_1
+			available = {
+				owner = {
+					bureaucracy_upkeep_affordable = yes
+				}
+			}
+		}
+
+		10 = {
+			building = building_bureaucratic_1
+			available = {
+				owner = {
+					bureaucracy_upkeep_affordable = yes
+				}
+			}
+		}
+
+		11 = {
+			building = building_bureaucratic_1
+			available = {
+				owner = {
+					bureaucracy_upkeep_affordable = yes
+				}
+			}
+		}
+
+		12 = {
+			building = building_bureaucratic_1
+			available = {
+				owner = {
+					bureaucracy_upkeep_affordable = yes
+				}
+			}
+		}
+
+		13 = {
+			building = building_bureaucratic_1
+			available = {
+				owner = {
+					bureaucracy_upkeep_affordable = yes
+				}
+			}
+		}
+
+		14 = {
+			building = building_bureaucratic_1
+			available = {
+				owner = {
+					bureaucracy_upkeep_affordable = yes
+				}
+			}
+		}
+
+		15 = {
+			building = building_bureaucratic_1
+			available = {
+				owner = {
+					bureaucracy_upkeep_affordable = yes
+				}
+			}
+		}
+
+		16 = {
+			building = building_bureaucratic_1
+			available = {
+				owner = {
+					bureaucracy_upkeep_affordable = yes
+				}
+			}
+		}
+	}
+}
