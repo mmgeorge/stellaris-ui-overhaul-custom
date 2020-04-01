@@ -983,25 +983,28 @@ guiTypes = {
 			}
 			containerWindowType = {
 				name = "empire_size_group"
-				size = { width = 50 height = 35 }
-				position = { x = 7 y = 0 }
+				size = { width = 140 height = 35 }
+				position = { x = -20 y = 0 }
+
 				background = {
 					name = "background"
 					spriteType = "GFX_invisible"
 				}
+
 				iconType = {
 					name = "icon"
-					spriteType = "GFX_sector_cap_icon"
-					position = { x = 15 y = 0 }
+					spriteType = "GFX_empire_sprawl_icon"
+					position = { x = 35 y = 0 }
 					scale = 0.8
 					tooltip_mode_enabled = yes
 					alwaysTransparent = yes
 				}
-				instantTextBoxType = {
+
+				instantTextBoxType={
 					name = "amount"
 					font = "cg_16b"
-					position = { x = 0 y = 16 }
-					maxWidth = 50
+					position = { x = -15 y = 16 }
+					maxWidth = 120
 					maxHeight = 16
 					text = "250"
 					format = center
